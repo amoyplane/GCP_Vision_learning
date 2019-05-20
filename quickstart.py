@@ -74,6 +74,8 @@ def run_quickstart(file_name):
         for block in page.blocks:
             if (block.block_type != 1):
                 continue
+            if sizefilter(block.bounding_box.vertices):
+                continue
             # print('{}\n'.format(block.confidence))
             # print('{}\n'.format(block.block_type))
 
