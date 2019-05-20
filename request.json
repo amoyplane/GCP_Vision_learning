@@ -1,0 +1,16 @@
+{
+  "requests": [
+    {
+      "features": [
+        {
+          "type": "TEXT_DETECTION"
+        }
+      ],
+      "image": {
+        "source": {
+          "imageUri": "https://storage.googleapis.com/store_plane1/t.png"
+        }
+      }
+    }
+  ]
+}
