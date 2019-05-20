@@ -16,9 +16,10 @@
 # [START vision_quickstart]
 import io
 import os
-#import socket
-#import requests
-#import socks
+import sys
+# import socket
+# import requests
+# import socks
 
 # Imports the Google Cloud client library
 # [START vision_python_migration_import]
@@ -48,7 +49,7 @@ def sizefilter(vertices):
     return False
 
 
-def run_quickstart():
+def run_quickstart(file_name):
 
     # Instantiates a client
     # [START vision_python_migration_client]
@@ -56,8 +57,8 @@ def run_quickstart():
     # [END vision_python_migration_client]
 
     # The name of the image file to annotate
-    #file_name = os.path.join(os.path.dirname(__file__),'t3.jpg')
-    file_name = os.path.join('/root/pic/', 't3.jpg')
+    # file_name = os.path.join(os.path.dirname(__file__),'t3.jpg')
+    # file_name = os.path.join('/root/pic/', 't3.jpg')
 
     # Loads the image into memory
     with io.open(file_name, 'rb') as image_file:
@@ -94,22 +95,25 @@ def run_quickstart():
                     if sizefilter(word.bounding_box.vertices):
                         continue
 
-                    vertices = (['({},{}),'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
+                    vertices = (['({},{})'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
                     word_text = ''.join([symbol.text for symbol in word.symbols])
                     f.write('Word text: {} '.format(word_text))
-                    f.write('bounds: {} \n'.format(vertices))
-                    centence = centence + word_text
+                    f.write('bounds: {} \n'.format(','.join(vertices))))
+                    centence=centence + word_text
 
                 f.write('centence : {}\n'.format(centence))
-                transans = trans.ask_translation('ja', centence)
+                transans=trans.ask_translation('ja', centence)
                 f.write('translation : {}\n'.format(transans))
 
 
 if __name__ == '__main__':
 
-    f = open('ans.txt', 'w')
+    f=open('ans.txt', 'w')
+
+    # file_name='/root/pic/t3.jpg'
+    file_name='/root/pic/' + sys.argv[1]
 
     os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
-    run_quickstart()
+    run_quickstart(file_name)
 
     f.close()
