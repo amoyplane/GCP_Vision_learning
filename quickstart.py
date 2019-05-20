@@ -50,8 +50,10 @@ def run_quickstart():
 
     for page in response.full_text_annotation.pages:
         for block in page.blocks:
-            print(block.blockType)
-            f.write('\nBlock confidence: {}\n'.format(block.confidence))
+            print('{}\n'.format(block.confidence))
+            print('{}\n'.format(block.blockType))
+
+            # f.write('\nBlock confidence: {}\n'.format(block.confidence))
 
             for paragraph in block.paragraphs:
                 f.write('Paragraph confidence: {}'.format(
@@ -116,7 +118,7 @@ if __name__ == '__main__':
     socks.set_default_proxy(socks.SOCKS5, socks5_proxy_host, socks5_proxy_port)
     socket.socket = socks.socksocket
     '''
-    #os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
+    os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     run_quickstart()
 
     #f.write("\n=======using uri========\n")
