@@ -80,17 +80,11 @@ def detect_text_uri(uri):
     """Detects text in the file located in Google Cloud Storage or on the Web.
     """
 
-    f.write("marker")
-
     client = vision.ImageAnnotatorClient()
     image = vision.types.Image()
     image.source.image_uri = uri
 
-    f.write("marker")
-
     response = client.text_detection(image=image)
-
-    f.write("marker")
 
     texts = response.text_annotations
     f.write('Texts:')
@@ -110,6 +104,6 @@ if __name__ == '__main__':
 
     os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     run_quickstart()
-    detect_text_uri("https://storage.googleapis.com/store_plane1/t.png")
+    detect_text_uri("https://storage.googleapis.com/store_plane1/t3.png")
 
     f.close()
