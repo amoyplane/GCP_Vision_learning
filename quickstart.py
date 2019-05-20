@@ -48,27 +48,38 @@ def run_quickstart():
     # Performs label detection on the image file
     response = client.document_text_detection(image=image)
 
+    blocki = 0
     for page in response.full_text_annotation.pages:
         for block in page.blocks:
-            print('{}\n'.format(block.confidence))
-            print('{}\n'.format(block.block_type))
+            if (block.block_type != 1):
+                continue
+            # print('{}\n'.format(block.confidence))
+            # print('{}\n'.format(block.block_type))
 
             # f.write('\nBlock confidence: {}\n'.format(block.confidence))
 
+            blocki = blocki + 1
+            f.write('Block # {} :\n'.format(blocki))
+            vertices = (['({},{})'.format(vertex.x, vertex.y)
+                         for vertex in block.bounding_box.vertices])
+
+            f.write('bounds: {} \n'.format(','.join(vertices)))
+
             for paragraph in block.paragraphs:
-                f.write('Paragraph confidence: {}'.format(
-                    paragraph.confidence))
+                # f.write('Paragraph confidence: {}'.format(
+                #    paragraph.confidence))
 
                 for word in paragraph.words:
                     word_text = ''.join([
                         symbol.text for symbol in word.symbols
                     ])
-                    f.write('Word text: {} (confidence: {})'.format(
-                        word_text, word.confidence))
+                    f.write('Word text: {}\n'.format(word_text))
 
+                    '''
                     for symbol in word.symbols:
                         f.write('\tSymbol: {} (confidence: {})'.format(
                             symbol.text, symbol.confidence))
+                    '''
 
 
 '''
