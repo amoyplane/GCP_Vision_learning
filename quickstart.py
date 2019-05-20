@@ -16,9 +16,9 @@
 # [START vision_quickstart]
 import io
 import os
-import socket
-import requests
-import socks
+#import socket
+#import requests
+#import socks
 
 # Imports the Google Cloud client library
 # [START vision_python_migration_import]
