@@ -41,7 +41,7 @@ def sizefilter(vertices):
             miny = vertex.y
         if vertex.y > maxy:
             maxy = vertex.y
-    if ((maxx - minx < 15) | | (maxy - miny < 15)):
+    if ((maxx - minx < 15) or (maxy - miny < 15)):
         return true
     return false
 
