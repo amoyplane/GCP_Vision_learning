@@ -71,6 +71,7 @@ def run_quickstart():
                     word_text = ''.join([symbol.text for symbol in word.symbols])
                     f.write('Word text: {} '.format(word_text))
                     vertices = (['({},{})\n'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
+                    f.write('bounds: {} \n'.format(','.join(vertices)))
 
                     '''
                     for symbol in word.symbols:
