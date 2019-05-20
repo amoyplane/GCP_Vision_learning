@@ -98,20 +98,20 @@ def run_quickstart(file_name):
                     vertices = (['({},{})'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
                     word_text = ''.join([symbol.text for symbol in word.symbols])
                     f.write('Word text: {} '.format(word_text))
-                    f.write('bounds: {} \n'.format(','.join(vertices))))
-                    centence=centence + word_text
+                    f.write('bounds: {} \n'.format(','.join(vertices)))
+                    centence = centence + word_text
 
                 f.write('centence : {}\n'.format(centence))
-                transans=trans.ask_translation('ja', centence)
+                transans = trans.ask_translation('ja', centence)
                 f.write('translation : {}\n'.format(transans))
 
 
 if __name__ == '__main__':
 
-    f=open('ans.txt', 'w')
+    f = open('ans.txt', 'w')
 
     # file_name='/root/pic/t3.jpg'
-    file_name='/root/pic/' + sys.argv[1]
+    file_name = '/root/pic/' + sys.argv[1]
 
     os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     run_quickstart(file_name)
