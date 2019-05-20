@@ -105,6 +105,11 @@ def detect_text_uri(uri):
 
 
 if __name__ == '__main__':
-    #os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/home/shazhubusha/mykey.json\"")
+
+    f = open('ans.txt', 'w')
+
+    os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     run_quickstart()
     detect_text_uri("https://storage.googleapis.com/store_plane1/t.png")
+
+    f.close()
