@@ -27,6 +27,25 @@ from google.cloud.vision import types
 # [END vision_python_migration_import]
 
 
+def sizefilter(vertices):
+    minx = 999999999
+    miny = 999999999
+    maxx = -1
+    maxy = -1
+    for vertex in vertices:
+        if vertex.x < minx:
+            minx = vertex.x
+        if vertex.x > maxx:
+            maxx = vertex.x
+        if vertex.y < miny:
+            miny = vertex.y
+        if vertex.y > maxy:
+            maxy = vertex.y
+    if ((maxx - minx < 15) | | (maxy - miny < 15)):
+        return true
+    return false
+
+
 def run_quickstart():
 
     # Instantiates a client
@@ -68,9 +87,12 @@ def run_quickstart():
                 #    paragraph.confidence))
 
                 for word in paragraph.words:
+                    if sizefilter(word.bounding_box.vertices):
+                        continue
+
+                    vertices = (['({},{}),'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
                     word_text = ''.join([symbol.text for symbol in word.symbols])
                     f.write('Word text: {} '.format(word_text))
-                    vertices = (['({},{})\n'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
                     f.write('bounds: {} \n'.format(','.join(vertices)))
 
                     '''
