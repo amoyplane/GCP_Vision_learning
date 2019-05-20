@@ -42,8 +42,8 @@ def sizefilter(vertices):
         if vertex.y > maxy:
             maxy = vertex.y
     if ((maxx - minx < 15) or (maxy - miny < 15)):
-        return true
-    return false
+        return True
+    return False
 
 
 def run_quickstart():
