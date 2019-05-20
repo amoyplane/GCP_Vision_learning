@@ -1,23 +1,9 @@
 Block # 1 :
 bounds: (895,102),(916,101),(922,228),(901,229) 
-Word text: あのとき
-Word text: .
-Word text: .
-Word text: .
-Word text: .
-Block # 2 :
+Word text: あのとき Word text: . Word text: . Word text: . Word text: . Block # 2 :
 bounds: (858,232),(869,231),(871,248),(860,249) 
-Word text: はる
-Block # 3 :
+Word text: はる Block # 3 :
 bounds: (744,232),(862,229),(866,403),(748,406) 
-Word text: 春にここで
-Word text: 侑のことを好きに
-Word text: なりはじめたのは
-Word text: たしかに
-Block # 4 :
+Word text: 春にここで Word text: 侑のことを好きに Word text: なりはじめたのは Word text: たしかに Block # 4 :
 bounds: (143,447),(246,445),(251,640),(148,642) 
-Word text: 侑が誰のことも
-Word text: 。
-Word text: 好きにならないって
-Word text: 言ったからだった
-Word text: 。
+Word text: 侑が誰のことも Word text: 。 Word text: 好きにならないって Word text: 言ったからだった Word text: 。 
