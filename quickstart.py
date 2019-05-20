@@ -60,8 +60,7 @@ def run_quickstart():
 
             blocki = blocki + 1
             f.write('Block # {} :\n'.format(blocki))
-            vertices = (['({},{})'.format(vertex.x, vertex.y)
-                         for vertex in block.bounding_box.vertices])
+            vertices = (['({},{})'.format(vertex.x, vertex.y) for vertex in block.bounding_box.vertices])
 
             f.write('bounds: {} \n'.format(','.join(vertices)))
 
@@ -70,10 +69,9 @@ def run_quickstart():
                 #    paragraph.confidence))
 
                 for word in paragraph.words:
-                    word_text = ''.join([
-                        symbol.text for symbol in word.symbols
-                    ])
-                    f.write('Word text: {}\n'.format(word_text))
+                    word_text = ''.join([symbol.text for symbol in word.symbols])
+                    f.write('Word text: {} '.format(word_text))
+                    vertices = (['({},{})\n'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
 
                     '''
                     for symbol in word.symbols:
@@ -82,58 +80,11 @@ def run_quickstart():
                     '''
 
 
-'''
-    texts = response.text_annotations
-    f.write('Texts:')
-
-    for text in texts:
-        f.write('\n"{}"'.format(text.description))
-
-        vertices = (['({},{})'.format(vertex.x, vertex.y)
-                     for vertex in text.bounding_poly.vertices])
-
-        f.write('bounds: {}'.format(','.join(vertices)))
-    # [END vision_quickstart]
-'''
-
-
-def detect_text_uri(uri):
-    """Detects text in the file located in Google Cloud Storage or on the Web.
-    """
-
-    client = vision.ImageAnnotatorClient()
-    image = vision.types.Image()
-    image.source.image_uri = uri
-
-    response = client.text_detection(image=image)
-
-    texts = response.text_annotations
-    f.write('Texts:')
-
-    for text in texts:
-        f.write('\n"{}"'.format(text.description))
-
-        vertices = (['({},{})'.format(vertex.x, vertex.y)
-                     for vertex in text.bounding_poly.vertices])
-
-        f.write('bounds: {}'.format(','.join(vertices)))
-
-
 if __name__ == '__main__':
 
     f = open('ans.txt', 'w')
 
-    '''
-    socks5_proxy_host = '127.0.0.1'
-    socks5_proxy_port = 1080
-    socks.set_default_proxy(socks.SOCKS5, socks5_proxy_host, socks5_proxy_port)
-    socket.socket = socks.socksocket
-    '''
     os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     run_quickstart()
-
-    #f.write("\n=======using uri========\n")
-
-    # detect_text_uri("https://storage.googleapis.com/store_plane1/t3.png")
 
     f.close()
