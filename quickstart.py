@@ -46,33 +46,33 @@ def run_quickstart():
 
     for page in response.full_text_annotation.pages:
         for block in page.blocks:
-            print('\nBlock confidence: {}\n'.format(block.confidence))
+            f.write('\nBlock confidence: {}\n'.format(block.confidence))
 
             for paragraph in block.paragraphs:
-                print('Paragraph confidence: {}'.format(
+                f.write('Paragraph confidence: {}'.format(
                     paragraph.confidence))
 
                 for word in paragraph.words:
                     word_text = ''.join([
                         symbol.text for symbol in word.symbols
                     ])
-                    print('Word text: {} (confidence: {})'.format(
+                    f.write('Word text: {} (confidence: {})'.format(
                         word_text, word.confidence))
 
                     for symbol in word.symbols:
-                        print('\tSymbol: {} (confidence: {})'.format(
+                        f.write('\tSymbol: {} (confidence: {})'.format(
                             symbol.text, symbol.confidence))
 
     texts = response.text_annotations
-    print('Texts:')
+    f.write('Texts:')
 
     for text in texts:
-        print('\n"{}"'.format(text.description))
+        f.write('\n"{}"'.format(text.description))
 
         vertices = (['({},{})'.format(vertex.x, vertex.y)
                      for vertex in text.bounding_poly.vertices])
 
-        print('bounds: {}'.format(','.join(vertices)))
+        f.write('bounds: {}'.format(','.join(vertices)))
     # [END vision_quickstart]
 
 
@@ -80,28 +80,28 @@ def detect_text_uri(uri):
     """Detects text in the file located in Google Cloud Storage or on the Web.
     """
 
-    print("marker")
+    f.write("marker")
 
     client = vision.ImageAnnotatorClient()
     image = vision.types.Image()
     image.source.image_uri = uri
 
-    print("marker")
+    f.write("marker")
 
     response = client.text_detection(image=image)
 
-    print("marker")
+    f.write("marker")
 
     texts = response.text_annotations
-    print('Texts:')
+    f.write('Texts:')
 
     for text in texts:
-        print('\n"{}"'.format(text.description))
+        f.write('\n"{}"'.format(text.description))
 
         vertices = (['({},{})'.format(vertex.x, vertex.y)
                      for vertex in text.bounding_poly.vertices])
 
-        print('bounds: {}'.format(','.join(vertices)))
+        f.write('bounds: {}'.format(','.join(vertices)))
 
 
 if __name__ == '__main__':
