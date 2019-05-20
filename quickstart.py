@@ -51,7 +51,7 @@ def run_quickstart():
     for page in response.full_text_annotation.pages:
         for block in page.blocks:
             print('{}\n'.format(block.confidence))
-            print('{}\n'.format(block.blockType))
+            print('{}\n'.format(block.block_type))
 
             # f.write('\nBlock confidence: {}\n'.format(block.confidence))
 
