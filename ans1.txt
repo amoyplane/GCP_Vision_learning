@@ -2,34 +2,42 @@
 
 Block confidence: 0.7599999904632568
 Paragraph confidence: 0.7599999904632568
+
 Word text: あのとき (confidence: 0.9900000095367432)
 Symbol: あ (confidence: 0.9900000095367432)
 Symbol: の (confidence: 0.9900000095367432)
 Symbol: と (confidence: 0.9900000095367432)
 Symbol: き (confidence: 0.9900000095367432)
+
 Word text: . (confidence: 0.2800000011920929)
 Symbol: . (confidence: 0.2800000011920929)
+
 Word text: . (confidence: 0.6499999761581421)
 Symbol: . (confidence: 0.6499999761581421)
+
 Word text: . (confidence: 0.6000000238418579)
 Symbol: . (confidence: 0.6000000238418579)
+
 Word text: . (confidence: 0.6600000262260437)
 Symbol: . (confidence: 0.6600000262260437)
 
 Block confidence: 0.9800000190734863
 Paragraph confidence: 0.9800000190734863
+
 Word text: はる (confidence: 0.9800000190734863)
 Symbol: は (confidence: 0.9800000190734863)
 Symbol: る (confidence: 0.9900000095367432)
 
 Block confidence: 0.9599999785423279
 Paragraph confidence: 0.9599999785423279
+
 Word text: 春にここで (confidence: 0.9800000190734863)
 Symbol: 春 (confidence: 0.9800000190734863)
 Symbol: に (confidence: 0.9900000095367432)
 Symbol: こ (confidence: 0.9800000190734863)
 Symbol: こ (confidence: 0.9900000095367432)
 Symbol: で (confidence: 0.9900000095367432)
+
 Word text: 侑のことを好きに (confidence: 0.9100000262260437)
 Symbol: 侑 (confidence: 0.8199999928474426)
 Symbol: の (confidence: 0.8199999928474426)
@@ -39,6 +47,7 @@ Symbol: を (confidence: 0.9900000095367432)
 Symbol: 好 (confidence: 0.9900000095367432)
 Symbol: き (confidence: 0.9900000095367432)
 Symbol: に (confidence: 0.9900000095367432)
+
 Word text: なりはじめたのは (confidence: 0.9800000190734863)
 Symbol: な (confidence: 0.9900000095367432)
 Symbol: り (confidence: 0.9900000095367432)
@@ -48,6 +57,7 @@ Symbol: め (confidence: 0.9900000095367432)
 Symbol: た (confidence: 0.9900000095367432)
 Symbol: の (confidence: 0.9900000095367432)
 Symbol: は (confidence: 0.9900000095367432)
+
 Word text: たしかに (confidence: 0.9900000095367432)
 Symbol: た (confidence: 0.9900000095367432)
 Symbol: し (confidence: 0.9900000095367432)
@@ -56,6 +66,7 @@ Symbol: に (confidence: 0.9900000095367432)
 
 Block confidence: 0.9200000166893005
 Paragraph confidence: 0.9200000166893005
+
 Word text: 侑が誰のことも (confidence: 0.949999988079071)
 Symbol: 侑 (confidence: 0.8999999761581421)
 Symbol: が (confidence: 0.8899999856948853)
@@ -64,8 +75,10 @@ Symbol: の (confidence: 0.9399999976158142)
 Symbol: こ (confidence: 0.9900000095367432)
 Symbol: と (confidence: 1.0)
 Symbol: も (confidence: 0.9900000095367432)
+
 Word text: 。 (confidence: 0.30000001192092896)
 Symbol: 。 (confidence: 0.30000001192092896)
+
 Word text: 好きにならないって (confidence: 0.9800000190734863)
 Symbol: 好 (confidence: 0.9800000190734863)
 Symbol: き (confidence: 0.9900000095367432)
@@ -76,6 +89,7 @@ Symbol: な (confidence: 0.9900000095367432)
 Symbol: い (confidence: 0.9900000095367432)
 Symbol: っ (confidence: 0.9900000095367432)
 Symbol: て (confidence: 0.9900000095367432)
+
 Word text: 言ったからだった (confidence: 0.9800000190734863)
 Symbol: 言 (confidence: 0.9800000190734863)
 Symbol: っ (confidence: 0.9900000095367432)
@@ -85,46 +99,7 @@ Symbol: ら (confidence: 0.9900000095367432)
 Symbol: だ (confidence: 0.9900000095367432)
 Symbol: っ (confidence: 0.9900000095367432)
 Symbol: た (confidence: 0.9900000095367432)
+
 Word text: 。 (confidence: 0.17000000178813934)
-Symbol: 。 (confidence: 0.17000000178813934)Texts:
-"あのとき....
-はる
-春にここで
-侑のことを好きに
-なりはじめたのは
-たしかに
-侑が誰のことも。
-好きにならないって
-言ったからだった。
-"bounds: (143,101),(923,101),(923,641),(143,641)
-"あのとき"bounds: (895,102),(916,101),(920,184),(899,185)
-"."bounds: (900,198),(921,197),(921,202),(900,203)
-"."bounds: (900,202),(921,201),(921,206),(900,207)
-"."bounds: (901,218),(922,217),(922,222),(901,223)
-"."bounds: (902,224),(923,223),(923,228),(902,229)
-"はる"bounds: (858,232),(869,231),(871,248),(860,249)
-"春にここで"bounds: (830,233),(859,232),(864,335),(835,336)
-"侑のことを好きに"bounds: (799,238),(829,237),(832,403),(802,404)
-"なりはじめたのは"bounds: (775,231),(798,231),(798,404),(775,404)
-"たしかに"bounds: (744,232),(769,231),(772,316),(747,317)
-"侑が誰のことも"bounds: (214,450),(247,449),(250,600),(217,601)
-"。"bounds: (217,605),(248,604),(248,612),(217,613)
-"好きにならないって"bounds: (180,447),(210,447),(213,640),(183,641)
-"言ったからだった"bounds: (143,447),(173,446),(178,620),(148,621)
-"。"bounds: (149,628),(178,627),(178,635),(149,636)markermarkermarkerTexts:
-"あの国民的RPG
-5年ぶりの
-シリーズ最新作!!
-"bounds: (23,10),(132,10),(132,249),(23,249)
-"あの"bounds: (132,10),(132,66),(104,66),(104,10)
-"国民"bounds: (132,70),(132,129),(104,129),(104,70)
-"的"bounds: (132,131),(132,159),(104,159),(104,131)
-"RPG"bounds: (130,161),(130,249),(106,249),(106,161)
-"5"bounds: (88,11),(87,37),(67,36),(68,10)
-"年"bounds: (91,39),(90,67),(63,66),(64,38)
-"ぶり"bounds: (92,71),(90,128),(62,127),(64,70)
-"の"bounds: (92,132),(91,158),(63,157),(64,131)
-"シリーズ"bounds: (51,11),(51,128),(24,128),(24,11)
-"最新"bounds: (49,131),(49,189),(23,189),(23,131)
-"作"bounds: (50,191),(50,220),(23,220),(23,191)
-"!!"bounds: (45,222),(45,249),(29,249),(29,222)
+Symbol: 。 (confidence: 0.17000000178813934)
+

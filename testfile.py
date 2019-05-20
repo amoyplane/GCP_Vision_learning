@@ -1,5 +1,8 @@
-f = open('ans.txt', 'w')
+f = open('test.txt', 'w')
 
-f.write("abcd")
+f.writelines("abcd")
+f.writelines("abcd")
+f.writelines("abcd")
+f.writelines("abcd")
 
 f.close()

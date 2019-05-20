@@ -16,6 +16,10 @@
 # [START vision_quickstart]
 import io
 import os
+import socket
+import requests
+import socks
+
 # Imports the Google Cloud client library
 # [START vision_python_migration_import]
 from google.cloud import vision
@@ -46,6 +50,7 @@ def run_quickstart():
 
     for page in response.full_text_annotation.pages:
         for block in page.blocks:
+            print(block.blockType)
             f.write('\nBlock confidence: {}\n'.format(block.confidence))
 
             for paragraph in block.paragraphs:
@@ -63,6 +68,8 @@ def run_quickstart():
                         f.write('\tSymbol: {} (confidence: {})'.format(
                             symbol.text, symbol.confidence))
 
+
+'''
     texts = response.text_annotations
     f.write('Texts:')
 
@@ -74,6 +81,7 @@ def run_quickstart():
 
         f.write('bounds: {}'.format(','.join(vertices)))
     # [END vision_quickstart]
+'''
 
 
 def detect_text_uri(uri):
@@ -102,8 +110,17 @@ if __name__ == '__main__':
 
     f = open('ans.txt', 'w')
 
-    os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
+    '''
+    socks5_proxy_host = '127.0.0.1'
+    socks5_proxy_port = 1080
+    socks.set_default_proxy(socks.SOCKS5, socks5_proxy_host, socks5_proxy_port)
+    socket.socket = socks.socksocket
+    '''
+    #os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     run_quickstart()
-    detect_text_uri("https://storage.googleapis.com/store_plane1/t3.png")
+
+    #f.write("\n=======using uri========\n")
+
+    # detect_text_uri("https://storage.googleapis.com/store_plane1/t3.png")
 
     f.close()
