@@ -1,0 +1,218 @@
+
+
+Block confidence: 0.9700000286102295
+Paragraph confidence: 0.9700000286102295
+
+Word text: あのとき (confidence: 0.9900000095367432)
+Symbol: あ (confidence: 0.9900000095367432)
+Symbol: の (confidence: 0.9900000095367432)
+Symbol: と (confidence: 0.9900000095367432)
+Symbol: き (confidence: 0.9900000095367432)
+
+Word text: … (confidence: 0.949999988079071)
+Symbol: … (confidence: 0.949999988079071)
+
+Word text: … (confidence: 0.9200000166893005)
+Symbol: … (confidence: 0.9200000166893005)
+
+Block confidence: 0.7799999713897705
+Paragraph confidence: 0.7799999713897705
+
+Word text: わたし (confidence: 0.7799999713897705)
+Symbol: わ (confidence: 0.46000000834465027)
+Symbol: た (confidence: 1.0)
+Symbol: し (confidence: 0.8799999952316284)
+
+Block confidence: 0.9300000071525574
+Paragraph confidence: 0.9300000071525574
+
+Word text: 春にここで (confidence: 0.9800000190734863)
+Symbol: 春 (confidence: 0.9800000190734863)
+Symbol: に (confidence: 0.9900000095367432)
+Symbol: こ (confidence: 0.9800000190734863)
+Symbol: こ (confidence: 0.9900000095367432)
+Symbol: で (confidence: 0.9900000095367432)
+
+Word text: 備のことを好きに (confidence: 0.8100000023841858)
+Symbol: 備 (confidence: 0.30000001192092896)
+Symbol: の (confidence: 0.7599999904632568)
+Symbol: こ (confidence: 0.7599999904632568)
+Symbol: と (confidence: 0.7799999713897705)
+Symbol: を (confidence: 0.9900000095367432)
+Symbol: 好 (confidence: 0.9800000190734863)
+Symbol: き (confidence: 0.9599999785423279)
+Symbol: に (confidence: 0.9900000095367432)
+
+Word text: なりはじめたのは (confidence: 0.9800000190734863)
+Symbol: な (confidence: 0.9900000095367432)
+Symbol: り (confidence: 0.949999988079071)
+Symbol: は (confidence: 0.9800000190734863)
+Symbol: じ (confidence: 0.9900000095367432)
+Symbol: め (confidence: 0.9900000095367432)
+Symbol: た (confidence: 0.9900000095367432)
+Symbol: の (confidence: 0.9900000095367432)
+Symbol: は (confidence: 0.9900000095367432)
+
+Word text: たしかに (confidence: 0.9900000095367432)
+Symbol: た (confidence: 0.9900000095367432)
+Symbol: し (confidence: 0.9900000095367432)
+Symbol: か (confidence: 0.9900000095367432)
+Symbol: に (confidence: 0.9900000095367432)
+
+Block confidence: 0.9100000262260437
+Paragraph confidence: 0.9100000262260437
+
+Word text: 私はずっと一 (confidence: 0.8600000143051147)
+Symbol: 私 (confidence: 0.9800000190734863)
+Symbol: は (confidence: 0.9900000095367432)
+Symbol: ず (confidence: 0.9800000190734863)
+Symbol: っ (confidence: 0.9900000095367432)
+Symbol: と (confidence: 0.9900000095367432)
+Symbol: 一 (confidence: 0.25)
+
+Word text: ｢ (confidence: 0.47999998927116394)
+Symbol: ｢ (confidence: 0.47999998927116394)
+
+Word text: 好き (confidence: 0.9800000190734863)
+Symbol: 好 (confidence: 0.9800000190734863)
+Symbol: き (confidence: 0.9900000095367432)
+
+Word text: 」 (confidence: 0.699999988079071)
+Symbol: 」 (confidence: 0.699999988079071)
+
+Word text: って言葉が (confidence: 0.9900000095367432)
+Symbol: っ (confidence: 0.9900000095367432)
+Symbol: て (confidence: 0.9900000095367432)
+Symbol: 言 (confidence: 0.9900000095367432)
+Symbol: 葉 (confidence: 0.9900000095367432)
+Symbol: が (confidence: 0.9900000095367432)
+
+Word text: 怖かったから (confidence: 0.9800000190734863)
+Symbol: 怖 (confidence: 0.9700000286102295)
+Symbol: か (confidence: 0.949999988079071)
+Symbol: っ (confidence: 0.9900000095367432)
+Symbol: た (confidence: 0.9900000095367432)
+Symbol: か (confidence: 0.9900000095367432)
+Symbol: ら (confidence: 0.9900000095367432)
+
+Block confidence: 0.7200000286102295
+Paragraph confidence: 0.7200000286102295
+
+Word text: さわ (confidence: 0.7200000286102295)
+Symbol: さ (confidence: 0.5299999713897705)
+Symbol: わ (confidence: 0.9100000262260437)
+
+Block confidence: 0.9599999785423279
+Paragraph confidence: 0.9599999785423279
+
+Word text: が誰のことも (confidence: 0.9800000190734863)
+Symbol: が (confidence: 0.9900000095367432)
+Symbol: 誰 (confidence: 0.9800000190734863)
+Symbol: の (confidence: 0.9900000095367432)
+Symbol: こ (confidence: 0.9900000095367432)
+Symbol: と (confidence: 0.9900000095367432)
+Symbol: も (confidence: 0.9900000095367432)
+
+Word text: 。 (confidence: 0.33000001311302185)
+Symbol: 。 (confidence: 0.33000001311302185)
+
+Word text: 好きにならないって (confidence: 0.9800000190734863)
+Symbol: 好 (confidence: 0.9800000190734863)
+Symbol: き (confidence: 0.9900000095367432)
+Symbol: に (confidence: 0.9900000095367432)
+Symbol: な (confidence: 0.9900000095367432)
+Symbol: ら (confidence: 0.9900000095367432)
+Symbol: な (confidence: 0.9900000095367432)
+Symbol: い (confidence: 0.9900000095367432)
+Symbol: っ (confidence: 0.9900000095367432)
+Symbol: て (confidence: 0.9900000095367432)
+
+Word text: 言ったからだった (confidence: 0.9800000190734863)
+Symbol: 言 (confidence: 0.9800000190734863)
+Symbol: っ (confidence: 0.9900000095367432)
+Symbol: た (confidence: 0.9900000095367432)
+Symbol: か (confidence: 0.9900000095367432)
+Symbol: ら (confidence: 0.9900000095367432)
+Symbol: だ (confidence: 0.9900000095367432)
+Symbol: っ (confidence: 0.9900000095367432)
+Symbol: た (confidence: 0.9900000095367432)
+
+Block confidence: 0.9300000071525574
+Paragraph confidence: 0.9300000071525574
+
+Word text: もう (confidence: 0.9700000286102295)
+Symbol: も (confidence: 0.9800000190734863)
+Symbol: う (confidence: 0.9599999785423279)
+
+Word text: 怖がらないって (confidence: 0.9800000190734863)
+Symbol: 怖 (confidence: 0.9700000286102295)
+Symbol: が (confidence: 0.9900000095367432)
+Symbol: ら (confidence: 0.9900000095367432)
+Symbol: な (confidence: 0.9900000095367432)
+Symbol: い (confidence: 0.9900000095367432)
+Symbol: っ (confidence: 0.9900000095367432)
+Symbol: て (confidence: 0.9900000095367432)
+
+Word text: 決めた (confidence: 0.9800000190734863)
+Symbol: 決 (confidence: 0.9800000190734863)
+Symbol: め (confidence: 0.9900000095367432)
+Symbol: た (confidence: 0.9900000095367432)
+
+Word text: 。 (confidence: 0.3499999940395355)
+Symbol: 。 (confidence: 0.3499999940395355)Texts:
+"あのとき……
+わたし
+春にここで
+備のことを好きに
+なりはじめたのは
+たしかに
+私はずっと一
+｢好き」って言葉が
+怖かったから
+さわ
+が誰のことも。
+好きにならないって
+言ったからだった
+もう
+怖がらないって
+決めた。
+"bounds: (123,99),(921,99),(921,1385),(123,1385)
+"あのとき"bounds: (898,99),(921,99),(921,184),(898,184)
+"…"bounds: (898,200),(921,200),(921,206),(898,206)
+"…"bounds: (898,220),(921,220),(921,226),(898,226)
+"わたし"bounds: (846,832),(856,832),(856,854),(846,854)
+"春にここで"bounds: (836,231),(866,232),(862,335),(833,334)
+"備のことを好きに"bounds: (796,234),(832,234),(832,405),(796,405)
+"なりはじめたのは"bounds: (772,231),(799,231),(799,406),(772,406)
+"たしかに"bounds: (745,231),(772,231),(772,320),(745,320)
+"私はずっと一"bounds: (821,831),(844,831),(844,956),(821,956)
+"｢"bounds: (785,829),(816,829),(816,837),(785,837)
+"好き"bounds: (785,848),(816,848),(816,882),(785,882)
+"」"bounds: (785,887),(816,887),(816,895),(785,895)
+"って言葉が"bounds: (785,898),(816,898),(816,1007),(785,1007)
+"怖かったから"bounds: (751,829),(780,829),(780,965),(751,965)
+"さわ"bounds: (775,836),(784,834),(787,851),(778,853)
+"が誰のことも"bounds: (217,465),(241,465),(241,602),(217,602)
+"。"bounds: (217,603),(241,603),(241,609),(217,609)
+"好きにならないって"bounds: (181,447),(210,447),(210,641),(181,641)
+"言ったからだった"bounds: (150,446),(172,446),(172,619),(150,619)
+"もう"bounds: (194,1234),(215,1233),(217,1272),(196,1273)
+"怖がらないって"bounds: (157,1233),(186,1233),(186,1385),(157,1385)
+"決めた"bounds: (123,1238),(152,1238),(152,1296),(123,1296)
+"。"bounds: (123,1300),(152,1300),(152,1308),(123,1308)markermarkermarkerTexts:
+"あの国民的RPG
+5年ぶりの
+シリーズ最新作!!
+"bounds: (23,10),(132,10),(132,249),(23,249)
+"あの"bounds: (132,10),(132,66),(104,66),(104,10)
+"国民"bounds: (132,70),(132,129),(104,129),(104,70)
+"的"bounds: (132,131),(132,159),(104,159),(104,131)
+"RPG"bounds: (130,161),(130,249),(106,249),(106,161)
+"5"bounds: (88,11),(87,37),(67,36),(68,10)
+"年"bounds: (91,39),(90,67),(63,66),(64,38)
+"ぶり"bounds: (92,71),(90,128),(62,127),(64,70)
+"の"bounds: (92,132),(91,158),(63,157),(64,131)
+"シリーズ"bounds: (51,11),(51,128),(24,128),(24,11)
+"最新"bounds: (49,131),(49,189),(23,189),(23,131)
+"作"bounds: (50,191),(50,220),(23,220),(23,191)
+"!!"bounds: (45,222),(45,249),(29,249),(29,222)
