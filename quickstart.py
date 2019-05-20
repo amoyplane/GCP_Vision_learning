@@ -26,6 +26,8 @@ from google.cloud import vision
 from google.cloud.vision import types
 # [END vision_python_migration_import]
 
+import translate as trans
+
 
 def sizefilter(vertices):
     minx = 999999999
@@ -86,6 +88,8 @@ def run_quickstart():
                 # f.write('Paragraph confidence: {}'.format(
                 #    paragraph.confidence))
 
+                centence = ''
+
                 for word in paragraph.words:
                     if sizefilter(word.bounding_box.vertices):
                         continue
@@ -93,13 +97,12 @@ def run_quickstart():
                     vertices = (['({},{}),'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
                     word_text = ''.join([symbol.text for symbol in word.symbols])
                     f.write('Word text: {} '.format(word_text))
-                    f.write('bounds: {} \n'.format(','.join(vertices)))
+                    f.write('bounds: {} \n'.format(vertices))
+                    centence = centence + word_text
 
-                    '''
-                    for symbol in word.symbols:
-                        f.write('\tSymbol: {} (confidence: {})'.format(
-                            symbol.text, symbol.confidence))
-                    '''
+                f.write('centence : {}\n'.format(centence))
+                transans = trans.ask_translation('ja', centence)
+                f.write('translation : {}\n'.format(transans))
 
 
 if __name__ == '__main__':
