@@ -28,6 +28,7 @@ from google.cloud.vision import types
 # [END vision_python_migration_import]
 
 import translate as trans
+import drawline as draw
 
 
 def sizefilter(vertices):
@@ -87,6 +88,9 @@ def run_quickstart(file_name):
 
             f.write('bounds: {} \n'.format(','.join(vertices)))
 
+            # block.bounding_box.vertices[1].x
+            #draw.drawline((block.bounding_box.vertices[1].x, block.bounding_box.vertices[1].y), (50, 50), (0, 255, 0))
+
             for paragraph in block.paragraphs:
                 # f.write('Paragraph confidence: {}'.format(
                 #    paragraph.confidence))
@@ -115,7 +119,11 @@ if __name__ == '__main__':
     # file_name='/root/pic/t3.jpg'
     file_name = '/root/pic/' + sys.argv[1]
 
+    draw.openpic(file_name)
+
     os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     run_quickstart(file_name)
+
+    draw.writepic('pro_' + sys.argv[1])
 
     f.close()
