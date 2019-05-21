@@ -89,7 +89,10 @@ def run_quickstart(file_name):
             f.write('bounds: {} \n'.format(','.join(vertices)))
 
             # block.bounding_box.vertices[1].x
-            #draw.drawline((block.bounding_box.vertices[1].x, block.bounding_box.vertices[1].y), (50, 50), (0, 255, 0))
+            draw.drawline((block.bounding_box.vertices[0].x, block.bounding_box.vertices[0].y), (block.bounding_box.vertices[1].x, block.bounding_box.vertices[1].y), (0, 255, 0))
+            draw.drawline((block.bounding_box.vertices[1].x, block.bounding_box.vertices[1].y), (block.bounding_box.vertices[2].x, block.bounding_box.vertices[2].y), (0, 255, 0))
+            draw.drawline((block.bounding_box.vertices[2].x, block.bounding_box.vertices[2].y), (block.bounding_box.vertices[3].x, block.bounding_box.vertices[3].y), (0, 255, 0))
+            draw.drawline((block.bounding_box.vertices[3].x, block.bounding_box.vertices[3].y), (block.bounding_box.vertices[0].x, block.bounding_box.vertices[0].y), (0, 255, 0))
 
             for paragraph in block.paragraphs:
                 # f.write('Paragraph confidence: {}'.format(
