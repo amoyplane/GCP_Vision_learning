@@ -17,6 +17,7 @@
 import io
 import os
 import sys
+import copy
 # import socket
 # import requests
 # import socks
