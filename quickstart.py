@@ -53,15 +53,15 @@ def sizefilter(vertices):
 
 def expand(vertices):
     t_vertices = copy.deepcopy(vertices)
-    t_vertices[0].x = t_vertices[0].x - 20
-    t_vertices[1].x = t_vertices[1].x + 20
-    t_vertices[2].x = t_vertices[2].x + 20
-    t_vertices[3].x = t_vertices[3].x - 20
+    t_vertices[0].x = t_vertices[0].x - 10
+    t_vertices[1].x = t_vertices[1].x + 10
+    t_vertices[2].x = t_vertices[2].x + 10
+    t_vertices[3].x = t_vertices[3].x - 10
 
-    t_vertices[0].y = t_vertices[0].y - 5
-    t_vertices[1].y = t_vertices[1].y - 5
-    t_vertices[2].y = t_vertices[2].y + 5
-    t_vertices[3].y = t_vertices[3].y + 5
+    t_vertices[0].y = t_vertices[0].y - 10
+    t_vertices[1].y = t_vertices[1].y - 10
+    t_vertices[2].y = t_vertices[2].y + 10
+    t_vertices[3].y = t_vertices[3].y + 10
 
     return t_vertices
 
