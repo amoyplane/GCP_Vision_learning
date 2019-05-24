@@ -7,7 +7,7 @@ global img
 
 def drawline(fro, dst, col):
     global img
-    cv2.line(img, fro, dst, col, 3)
+    cv2.line(img, fro, dst, col, 1)
 
 
 def openpic(file_name):
