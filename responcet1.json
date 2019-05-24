@@ -1,0 +1,5129 @@
+{
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 1079
+            },
+            {
+              "x": 1079,
+              "y": 1354
+            },
+            {
+              "y": 1354
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.9
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 1079
+            },
+            {
+              "x": 1079,
+              "y": 1077
+            },
+            {
+              "y": 1077
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.78
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 291
+            },
+            {
+              "x": 1079,
+              "y": 291
+            },
+            {
+              "x": 1079,
+              "y": 1200
+            },
+            {
+              "y": 1200
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.7
+      }
+    ]
+  },
+  "fullTextAnnotation": {
+    "pages": [
+      {
+        "blocks": [
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 898,
+                  "y": 99
+                },
+                {
+                  "x": 921,
+                  "y": 99
+                },
+                {
+                  "x": 921,
+                  "y": 226
+                },
+                {
+                  "x": 898,
+                  "y": 226
+                }
+              ]
+            },
+            "confidence": 0.97,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 898,
+                      "y": 99
+                    },
+                    {
+                      "x": 921,
+                      "y": 99
+                    },
+                    {
+                      "x": 921,
+                      "y": 226
+                    },
+                    {
+                      "x": 898,
+                      "y": 226
+                    }
+                  ]
+                },
+                "confidence": 0.97,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 898,
+                          "y": 99
+                        },
+                        {
+                          "x": 921,
+                          "y": 99
+                        },
+                        {
+                          "x": 921,
+                          "y": 184
+                        },
+                        {
+                          "x": 898,
+                          "y": 184
+                        }
+                      ]
+                    },
+                    "confidence": 0.99,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 898,
+                              "y": 99
+                            },
+                            {
+                              "x": 921,
+                              "y": 99
+                            },
+                            {
+                              "x": 921,
+                              "y": 116
+                            },
+                            {
+                              "x": 898,
+                              "y": 116
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "あ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 898,
+                              "y": 121
+                            },
+                            {
+                              "x": 921,
+                              "y": 121
+                            },
+                            {
+                              "x": 921,
+                              "y": 138
+                            },
+                            {
+                              "x": 898,
+                              "y": 138
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "の"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 898,
+                              "y": 144
+                            },
+                            {
+                              "x": 921,
+                              "y": 144
+                            },
+                            {
+                              "x": 921,
+                              "y": 162
+                            },
+                            {
+                              "x": 898,
+                              "y": 162
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "と"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 898,
+                              "y": 167
+                            },
+                            {
+                              "x": 921,
+                              "y": 167
+                            },
+                            {
+                              "x": 921,
+                              "y": 184
+                            },
+                            {
+                              "x": 898,
+                              "y": 184
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "き"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 898,
+                          "y": 200
+                        },
+                        {
+                          "x": 921,
+                          "y": 200
+                        },
+                        {
+                          "x": 921,
+                          "y": 206
+                        },
+                        {
+                          "x": 898,
+                          "y": 206
+                        }
+                      ]
+                    },
+                    "confidence": 0.95,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 898,
+                              "y": 200
+                            },
+                            {
+                              "x": 921,
+                              "y": 200
+                            },
+                            {
+                              "x": 921,
+                              "y": 206
+                            },
+                            {
+                              "x": 898,
+                              "y": 206
+                            }
+                          ]
+                        },
+                        "confidence": 0.95,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "…"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 898,
+                          "y": 220
+                        },
+                        {
+                          "x": 921,
+                          "y": 220
+                        },
+                        {
+                          "x": 921,
+                          "y": 226
+                        },
+                        {
+                          "x": 898,
+                          "y": 226
+                        }
+                      ]
+                    },
+                    "confidence": 0.92,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 898,
+                              "y": 220
+                            },
+                            {
+                              "x": 921,
+                              "y": 220
+                            },
+                            {
+                              "x": 921,
+                              "y": 226
+                            },
+                            {
+                              "x": 898,
+                              "y": 226
+                            }
+                          ]
+                        },
+                        "confidence": 0.92,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "…"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 846,
+                  "y": 832
+                },
+                {
+                  "x": 856,
+                  "y": 832
+                },
+                {
+                  "x": 856,
+                  "y": 854
+                },
+                {
+                  "x": 846,
+                  "y": 854
+                }
+              ]
+            },
+            "confidence": 0.78,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 846,
+                      "y": 832
+                    },
+                    {
+                      "x": 856,
+                      "y": 832
+                    },
+                    {
+                      "x": 856,
+                      "y": 854
+                    },
+                    {
+                      "x": 846,
+                      "y": 854
+                    }
+                  ]
+                },
+                "confidence": 0.78,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 846,
+                          "y": 832
+                        },
+                        {
+                          "x": 856,
+                          "y": 832
+                        },
+                        {
+                          "x": 856,
+                          "y": 854
+                        },
+                        {
+                          "x": 846,
+                          "y": 854
+                        }
+                      ]
+                    },
+                    "confidence": 0.78,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 846,
+                              "y": 832
+                            },
+                            {
+                              "x": 856,
+                              "y": 832
+                            },
+                            {
+                              "x": 856,
+                              "y": 838
+                            },
+                            {
+                              "x": 846,
+                              "y": 838
+                            }
+                          ]
+                        },
+                        "confidence": 0.46,
+                        "text": "わ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 846,
+                              "y": 840
+                            },
+                            {
+                              "x": 856,
+                              "y": 840
+                            },
+                            {
+                              "x": 856,
+                              "y": 846
+                            },
+                            {
+                              "x": 846,
+                              "y": 846
+                            }
+                          ]
+                        },
+                        "confidence": 1,
+                        "text": "た"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 846,
+                              "y": 848
+                            },
+                            {
+                              "x": 856,
+                              "y": 848
+                            },
+                            {
+                              "x": 856,
+                              "y": 854
+                            },
+                            {
+                              "x": 846,
+                              "y": 854
+                            }
+                          ]
+                        },
+                        "confidence": 0.88,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "し"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 745,
+                  "y": 228
+                },
+                {
+                  "x": 866,
+                  "y": 232
+                },
+                {
+                  "x": 860,
+                  "y": 409
+                },
+                {
+                  "x": 739,
+                  "y": 405
+                }
+              ]
+            },
+            "confidence": 0.93,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 745,
+                      "y": 228
+                    },
+                    {
+                      "x": 866,
+                      "y": 232
+                    },
+                    {
+                      "x": 860,
+                      "y": 409
+                    },
+                    {
+                      "x": 739,
+                      "y": 405
+                    }
+                  ]
+                },
+                "confidence": 0.93,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 836,
+                          "y": 231
+                        },
+                        {
+                          "x": 866,
+                          "y": 232
+                        },
+                        {
+                          "x": 862,
+                          "y": 335
+                        },
+                        {
+                          "x": 833,
+                          "y": 334
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 836,
+                              "y": 231
+                            },
+                            {
+                              "x": 865,
+                              "y": 232
+                            },
+                            {
+                              "x": 864,
+                              "y": 248
+                            },
+                            {
+                              "x": 835,
+                              "y": 247
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "春"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 836,
+                              "y": 251
+                            },
+                            {
+                              "x": 865,
+                              "y": 252
+                            },
+                            {
+                              "x": 864,
+                              "y": 270
+                            },
+                            {
+                              "x": 835,
+                              "y": 269
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "に"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 835,
+                              "y": 275
+                            },
+                            {
+                              "x": 864,
+                              "y": 276
+                            },
+                            {
+                              "x": 863,
+                              "y": 294
+                            },
+                            {
+                              "x": 834,
+                              "y": 293
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "こ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 834,
+                              "y": 297
+                            },
+                            {
+                              "x": 863,
+                              "y": 298
+                            },
+                            {
+                              "x": 862,
+                              "y": 314
+                            },
+                            {
+                              "x": 833,
+                              "y": 313
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "こ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 834,
+                              "y": 318
+                            },
+                            {
+                              "x": 863,
+                              "y": 319
+                            },
+                            {
+                              "x": 862,
+                              "y": 335
+                            },
+                            {
+                              "x": 833,
+                              "y": 334
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "で"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 796,
+                          "y": 234
+                        },
+                        {
+                          "x": 832,
+                          "y": 234
+                        },
+                        {
+                          "x": 832,
+                          "y": 405
+                        },
+                        {
+                          "x": 796,
+                          "y": 405
+                        }
+                      ]
+                    },
+                    "confidence": 0.81,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 234
+                            },
+                            {
+                              "x": 832,
+                              "y": 234
+                            },
+                            {
+                              "x": 832,
+                              "y": 248
+                            },
+                            {
+                              "x": 796,
+                              "y": 248
+                            }
+                          ]
+                        },
+                        "confidence": 0.3,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "備"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 250
+                            },
+                            {
+                              "x": 832,
+                              "y": 250
+                            },
+                            {
+                              "x": 832,
+                              "y": 268
+                            },
+                            {
+                              "x": 796,
+                              "y": 268
+                            }
+                          ]
+                        },
+                        "confidence": 0.76,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "の"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 276
+                            },
+                            {
+                              "x": 832,
+                              "y": 276
+                            },
+                            {
+                              "x": 832,
+                              "y": 295
+                            },
+                            {
+                              "x": 796,
+                              "y": 295
+                            }
+                          ]
+                        },
+                        "confidence": 0.76,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "こ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 298
+                            },
+                            {
+                              "x": 832,
+                              "y": 298
+                            },
+                            {
+                              "x": 832,
+                              "y": 317
+                            },
+                            {
+                              "x": 796,
+                              "y": 317
+                            }
+                          ]
+                        },
+                        "confidence": 0.78,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "と"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 324
+                            },
+                            {
+                              "x": 832,
+                              "y": 324
+                            },
+                            {
+                              "x": 832,
+                              "y": 343
+                            },
+                            {
+                              "x": 796,
+                              "y": 343
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "を"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 348
+                            },
+                            {
+                              "x": 832,
+                              "y": 348
+                            },
+                            {
+                              "x": 832,
+                              "y": 364
+                            },
+                            {
+                              "x": 796,
+                              "y": 364
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "好"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 366
+                            },
+                            {
+                              "x": 832,
+                              "y": 366
+                            },
+                            {
+                              "x": 832,
+                              "y": 382
+                            },
+                            {
+                              "x": 796,
+                              "y": 382
+                            }
+                          ]
+                        },
+                        "confidence": 0.96,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "き"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 796,
+                              "y": 388
+                            },
+                            {
+                              "x": 832,
+                              "y": 388
+                            },
+                            {
+                              "x": 832,
+                              "y": 405
+                            },
+                            {
+                              "x": 796,
+                              "y": 405
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "に"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 772,
+                          "y": 231
+                        },
+                        {
+                          "x": 799,
+                          "y": 231
+                        },
+                        {
+                          "x": 799,
+                          "y": 406
+                        },
+                        {
+                          "x": 772,
+                          "y": 406
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 231
+                            },
+                            {
+                              "x": 799,
+                              "y": 231
+                            },
+                            {
+                              "x": 799,
+                              "y": 249
+                            },
+                            {
+                              "x": 772,
+                              "y": 249
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "な"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 254
+                            },
+                            {
+                              "x": 799,
+                              "y": 254
+                            },
+                            {
+                              "x": 799,
+                              "y": 270
+                            },
+                            {
+                              "x": 772,
+                              "y": 270
+                            }
+                          ]
+                        },
+                        "confidence": 0.95,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "り"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 273
+                            },
+                            {
+                              "x": 799,
+                              "y": 273
+                            },
+                            {
+                              "x": 799,
+                              "y": 291
+                            },
+                            {
+                              "x": 772,
+                              "y": 291
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "は"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 297
+                            },
+                            {
+                              "x": 799,
+                              "y": 297
+                            },
+                            {
+                              "x": 799,
+                              "y": 316
+                            },
+                            {
+                              "x": 772,
+                              "y": 316
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "じ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 321
+                            },
+                            {
+                              "x": 799,
+                              "y": 321
+                            },
+                            {
+                              "x": 799,
+                              "y": 339
+                            },
+                            {
+                              "x": 772,
+                              "y": 339
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "め"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 343
+                            },
+                            {
+                              "x": 799,
+                              "y": 343
+                            },
+                            {
+                              "x": 799,
+                              "y": 361
+                            },
+                            {
+                              "x": 772,
+                              "y": 361
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "た"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 366
+                            },
+                            {
+                              "x": 799,
+                              "y": 366
+                            },
+                            {
+                              "x": 799,
+                              "y": 383
+                            },
+                            {
+                              "x": 772,
+                              "y": 383
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "の"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 772,
+                              "y": 388
+                            },
+                            {
+                              "x": 799,
+                              "y": 388
+                            },
+                            {
+                              "x": 799,
+                              "y": 406
+                            },
+                            {
+                              "x": 772,
+                              "y": 406
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "は"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 745,
+                          "y": 231
+                        },
+                        {
+                          "x": 772,
+                          "y": 231
+                        },
+                        {
+                          "x": 772,
+                          "y": 320
+                        },
+                        {
+                          "x": 745,
+                          "y": 320
+                        }
+                      ]
+                    },
+                    "confidence": 0.99,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 745,
+                              "y": 231
+                            },
+                            {
+                              "x": 772,
+                              "y": 231
+                            },
+                            {
+                              "x": 772,
+                              "y": 249
+                            },
+                            {
+                              "x": 745,
+                              "y": 249
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "text": "た"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 745,
+                              "y": 254
+                            },
+                            {
+                              "x": 772,
+                              "y": 254
+                            },
+                            {
+                              "x": 772,
+                              "y": 271
+                            },
+                            {
+                              "x": 745,
+                              "y": 271
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "text": "し"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 745,
+                              "y": 275
+                            },
+                            {
+                              "x": 772,
+                              "y": 275
+                            },
+                            {
+                              "x": 772,
+                              "y": 294
+                            },
+                            {
+                              "x": 745,
+                              "y": 294
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "text": "か"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 745,
+                              "y": 300
+                            },
+                            {
+                              "x": 772,
+                              "y": 300
+                            },
+                            {
+                              "x": 772,
+                              "y": 320
+                            },
+                            {
+                              "x": 745,
+                              "y": 320
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "に"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 751,
+                  "y": 829
+                },
+                {
+                  "x": 844,
+                  "y": 829
+                },
+                {
+                  "x": 844,
+                  "y": 1007
+                },
+                {
+                  "x": 751,
+                  "y": 1007
+                }
+              ]
+            },
+            "confidence": 0.91,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 751,
+                      "y": 829
+                    },
+                    {
+                      "x": 844,
+                      "y": 829
+                    },
+                    {
+                      "x": 844,
+                      "y": 1007
+                    },
+                    {
+                      "x": 751,
+                      "y": 1007
+                    }
+                  ]
+                },
+                "confidence": 0.91,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 821,
+                          "y": 831
+                        },
+                        {
+                          "x": 844,
+                          "y": 831
+                        },
+                        {
+                          "x": 844,
+                          "y": 956
+                        },
+                        {
+                          "x": 821,
+                          "y": 956
+                        }
+                      ]
+                    },
+                    "confidence": 0.86,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 821,
+                              "y": 831
+                            },
+                            {
+                              "x": 844,
+                              "y": 831
+                            },
+                            {
+                              "x": 844,
+                              "y": 850
+                            },
+                            {
+                              "x": 821,
+                              "y": 850
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "私"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 821,
+                              "y": 855
+                            },
+                            {
+                              "x": 844,
+                              "y": 855
+                            },
+                            {
+                              "x": 844,
+                              "y": 873
+                            },
+                            {
+                              "x": 821,
+                              "y": 873
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "は"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 821,
+                              "y": 877
+                            },
+                            {
+                              "x": 844,
+                              "y": 877
+                            },
+                            {
+                              "x": 844,
+                              "y": 895
+                            },
+                            {
+                              "x": 821,
+                              "y": 895
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "ず"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 821,
+                              "y": 901
+                            },
+                            {
+                              "x": 844,
+                              "y": 901
+                            },
+                            {
+                              "x": 844,
+                              "y": 920
+                            },
+                            {
+                              "x": 821,
+                              "y": 920
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "っ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 821,
+                              "y": 927
+                            },
+                            {
+                              "x": 844,
+                              "y": 927
+                            },
+                            {
+                              "x": 844,
+                              "y": 942
+                            },
+                            {
+                              "x": 821,
+                              "y": 942
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "と"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 821,
+                              "y": 944
+                            },
+                            {
+                              "x": 844,
+                              "y": 944
+                            },
+                            {
+                              "x": 844,
+                              "y": 956
+                            },
+                            {
+                              "x": 821,
+                              "y": 956
+                            }
+                          ]
+                        },
+                        "confidence": 0.25,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "一"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 785,
+                          "y": 829
+                        },
+                        {
+                          "x": 816,
+                          "y": 829
+                        },
+                        {
+                          "x": 816,
+                          "y": 837
+                        },
+                        {
+                          "x": 785,
+                          "y": 837
+                        }
+                      ]
+                    },
+                    "confidence": 0.48,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 829
+                            },
+                            {
+                              "x": 816,
+                              "y": 829
+                            },
+                            {
+                              "x": 816,
+                              "y": 837
+                            },
+                            {
+                              "x": 785,
+                              "y": 837
+                            }
+                          ]
+                        },
+                        "confidence": 0.48,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "｢"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 785,
+                          "y": 848
+                        },
+                        {
+                          "x": 816,
+                          "y": 848
+                        },
+                        {
+                          "x": 816,
+                          "y": 882
+                        },
+                        {
+                          "x": 785,
+                          "y": 882
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 848
+                            },
+                            {
+                              "x": 816,
+                              "y": 848
+                            },
+                            {
+                              "x": 816,
+                              "y": 863
+                            },
+                            {
+                              "x": 785,
+                              "y": 863
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "好"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 867
+                            },
+                            {
+                              "x": 816,
+                              "y": 867
+                            },
+                            {
+                              "x": 816,
+                              "y": 882
+                            },
+                            {
+                              "x": 785,
+                              "y": 882
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "き"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 785,
+                          "y": 887
+                        },
+                        {
+                          "x": 816,
+                          "y": 887
+                        },
+                        {
+                          "x": 816,
+                          "y": 895
+                        },
+                        {
+                          "x": 785,
+                          "y": 895
+                        }
+                      ]
+                    },
+                    "confidence": 0.7,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 887
+                            },
+                            {
+                              "x": 816,
+                              "y": 887
+                            },
+                            {
+                              "x": 816,
+                              "y": 895
+                            },
+                            {
+                              "x": 785,
+                              "y": 895
+                            }
+                          ]
+                        },
+                        "confidence": 0.7,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "」"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 785,
+                          "y": 898
+                        },
+                        {
+                          "x": 816,
+                          "y": 898
+                        },
+                        {
+                          "x": 816,
+                          "y": 1007
+                        },
+                        {
+                          "x": 785,
+                          "y": 1007
+                        }
+                      ]
+                    },
+                    "confidence": 0.99,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 898
+                            },
+                            {
+                              "x": 816,
+                              "y": 898
+                            },
+                            {
+                              "x": 816,
+                              "y": 915
+                            },
+                            {
+                              "x": 785,
+                              "y": 915
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "っ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 919
+                            },
+                            {
+                              "x": 816,
+                              "y": 919
+                            },
+                            {
+                              "x": 816,
+                              "y": 940
+                            },
+                            {
+                              "x": 785,
+                              "y": 940
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "て"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 948
+                            },
+                            {
+                              "x": 816,
+                              "y": 948
+                            },
+                            {
+                              "x": 816,
+                              "y": 968
+                            },
+                            {
+                              "x": 785,
+                              "y": 968
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "言"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 973
+                            },
+                            {
+                              "x": 816,
+                              "y": 973
+                            },
+                            {
+                              "x": 816,
+                              "y": 989
+                            },
+                            {
+                              "x": 785,
+                              "y": 989
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "葉"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 785,
+                              "y": 992
+                            },
+                            {
+                              "x": 816,
+                              "y": 992
+                            },
+                            {
+                              "x": 816,
+                              "y": 1007
+                            },
+                            {
+                              "x": 785,
+                              "y": 1007
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "が"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 751,
+                          "y": 829
+                        },
+                        {
+                          "x": 780,
+                          "y": 829
+                        },
+                        {
+                          "x": 780,
+                          "y": 965
+                        },
+                        {
+                          "x": 751,
+                          "y": 965
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 751,
+                              "y": 829
+                            },
+                            {
+                              "x": 780,
+                              "y": 829
+                            },
+                            {
+                              "x": 780,
+                              "y": 848
+                            },
+                            {
+                              "x": 751,
+                              "y": 848
+                            }
+                          ]
+                        },
+                        "confidence": 0.97,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "怖"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 751,
+                              "y": 853
+                            },
+                            {
+                              "x": 780,
+                              "y": 853
+                            },
+                            {
+                              "x": 780,
+                              "y": 872
+                            },
+                            {
+                              "x": 751,
+                              "y": 872
+                            }
+                          ]
+                        },
+                        "confidence": 0.95,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "か"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 751,
+                              "y": 878
+                            },
+                            {
+                              "x": 780,
+                              "y": 878
+                            },
+                            {
+                              "x": 780,
+                              "y": 896
+                            },
+                            {
+                              "x": 751,
+                              "y": 896
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "っ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 751,
+                              "y": 899
+                            },
+                            {
+                              "x": 780,
+                              "y": 899
+                            },
+                            {
+                              "x": 780,
+                              "y": 917
+                            },
+                            {
+                              "x": 751,
+                              "y": 917
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "た"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 751,
+                              "y": 922
+                            },
+                            {
+                              "x": 780,
+                              "y": 922
+                            },
+                            {
+                              "x": 780,
+                              "y": 941
+                            },
+                            {
+                              "x": 751,
+                              "y": 941
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "か"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 751,
+                              "y": 946
+                            },
+                            {
+                              "x": 780,
+                              "y": 946
+                            },
+                            {
+                              "x": 780,
+                              "y": 965
+                            },
+                            {
+                              "x": 751,
+                              "y": 965
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "ら"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 775,
+                  "y": 836
+                },
+                {
+                  "x": 784,
+                  "y": 834
+                },
+                {
+                  "x": 787,
+                  "y": 851
+                },
+                {
+                  "x": 778,
+                  "y": 853
+                }
+              ]
+            },
+            "confidence": 0.72,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 775,
+                      "y": 836
+                    },
+                    {
+                      "x": 784,
+                      "y": 834
+                    },
+                    {
+                      "x": 787,
+                      "y": 851
+                    },
+                    {
+                      "x": 778,
+                      "y": 853
+                    }
+                  ]
+                },
+                "confidence": 0.72,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 775,
+                          "y": 836
+                        },
+                        {
+                          "x": 784,
+                          "y": 834
+                        },
+                        {
+                          "x": 787,
+                          "y": 851
+                        },
+                        {
+                          "x": 778,
+                          "y": 853
+                        }
+                      ]
+                    },
+                    "confidence": 0.72,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 775,
+                              "y": 836
+                            },
+                            {
+                              "x": 784,
+                              "y": 834
+                            },
+                            {
+                              "x": 785,
+                              "y": 841
+                            },
+                            {
+                              "x": 776,
+                              "y": 843
+                            }
+                          ]
+                        },
+                        "confidence": 0.53,
+                        "text": "さ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 777,
+                              "y": 846
+                            },
+                            {
+                              "x": 786,
+                              "y": 844
+                            },
+                            {
+                              "x": 787,
+                              "y": 851
+                            },
+                            {
+                              "x": 778,
+                              "y": 853
+                            }
+                          ]
+                        },
+                        "confidence": 0.91,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "わ"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 150,
+                  "y": 446
+                },
+                {
+                  "x": 241,
+                  "y": 446
+                },
+                {
+                  "x": 241,
+                  "y": 641
+                },
+                {
+                  "x": 150,
+                  "y": 641
+                }
+              ]
+            },
+            "confidence": 0.96,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 150,
+                      "y": 446
+                    },
+                    {
+                      "x": 241,
+                      "y": 446
+                    },
+                    {
+                      "x": 241,
+                      "y": 641
+                    },
+                    {
+                      "x": 150,
+                      "y": 641
+                    }
+                  ]
+                },
+                "confidence": 0.96,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 217,
+                          "y": 465
+                        },
+                        {
+                          "x": 241,
+                          "y": 465
+                        },
+                        {
+                          "x": 241,
+                          "y": 602
+                        },
+                        {
+                          "x": 217,
+                          "y": 602
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 217,
+                              "y": 465
+                            },
+                            {
+                              "x": 241,
+                              "y": 465
+                            },
+                            {
+                              "x": 241,
+                              "y": 485
+                            },
+                            {
+                              "x": 217,
+                              "y": 485
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "が"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 217,
+                              "y": 491
+                            },
+                            {
+                              "x": 241,
+                              "y": 491
+                            },
+                            {
+                              "x": 241,
+                              "y": 509
+                            },
+                            {
+                              "x": 217,
+                              "y": 509
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "誰"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 217,
+                              "y": 511
+                            },
+                            {
+                              "x": 241,
+                              "y": 511
+                            },
+                            {
+                              "x": 241,
+                              "y": 529
+                            },
+                            {
+                              "x": 217,
+                              "y": 529
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "の"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 217,
+                              "y": 535
+                            },
+                            {
+                              "x": 241,
+                              "y": 535
+                            },
+                            {
+                              "x": 241,
+                              "y": 554
+                            },
+                            {
+                              "x": 217,
+                              "y": 554
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "こ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 217,
+                              "y": 558
+                            },
+                            {
+                              "x": 241,
+                              "y": 558
+                            },
+                            {
+                              "x": 241,
+                              "y": 576
+                            },
+                            {
+                              "x": 217,
+                              "y": 576
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "と"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 217,
+                              "y": 583
+                            },
+                            {
+                              "x": 241,
+                              "y": 583
+                            },
+                            {
+                              "x": 241,
+                              "y": 602
+                            },
+                            {
+                              "x": 217,
+                              "y": 602
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "も"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 217,
+                          "y": 603
+                        },
+                        {
+                          "x": 241,
+                          "y": 603
+                        },
+                        {
+                          "x": 241,
+                          "y": 609
+                        },
+                        {
+                          "x": 217,
+                          "y": 609
+                        }
+                      ]
+                    },
+                    "confidence": 0.33,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 217,
+                              "y": 603
+                            },
+                            {
+                              "x": 241,
+                              "y": 603
+                            },
+                            {
+                              "x": 241,
+                              "y": 609
+                            },
+                            {
+                              "x": 217,
+                              "y": 609
+                            }
+                          ]
+                        },
+                        "confidence": 0.33,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "。"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 181,
+                          "y": 447
+                        },
+                        {
+                          "x": 210,
+                          "y": 447
+                        },
+                        {
+                          "x": 210,
+                          "y": 641
+                        },
+                        {
+                          "x": 181,
+                          "y": 641
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 447
+                            },
+                            {
+                              "x": 210,
+                              "y": 447
+                            },
+                            {
+                              "x": 210,
+                              "y": 463
+                            },
+                            {
+                              "x": 181,
+                              "y": 463
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "好"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 468
+                            },
+                            {
+                              "x": 210,
+                              "y": 468
+                            },
+                            {
+                              "x": 210,
+                              "y": 484
+                            },
+                            {
+                              "x": 181,
+                              "y": 484
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "き"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 488
+                            },
+                            {
+                              "x": 210,
+                              "y": 488
+                            },
+                            {
+                              "x": 210,
+                              "y": 506
+                            },
+                            {
+                              "x": 181,
+                              "y": 506
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "に"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 511
+                            },
+                            {
+                              "x": 210,
+                              "y": 511
+                            },
+                            {
+                              "x": 210,
+                              "y": 530
+                            },
+                            {
+                              "x": 181,
+                              "y": 530
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "な"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 537
+                            },
+                            {
+                              "x": 210,
+                              "y": 537
+                            },
+                            {
+                              "x": 210,
+                              "y": 553
+                            },
+                            {
+                              "x": 181,
+                              "y": 553
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "ら"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 555
+                            },
+                            {
+                              "x": 210,
+                              "y": 555
+                            },
+                            {
+                              "x": 210,
+                              "y": 571
+                            },
+                            {
+                              "x": 181,
+                              "y": 571
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "な"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 578
+                            },
+                            {
+                              "x": 210,
+                              "y": 578
+                            },
+                            {
+                              "x": 210,
+                              "y": 596
+                            },
+                            {
+                              "x": 181,
+                              "y": 596
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "い"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 599
+                            },
+                            {
+                              "x": 210,
+                              "y": 599
+                            },
+                            {
+                              "x": 210,
+                              "y": 617
+                            },
+                            {
+                              "x": 181,
+                              "y": 617
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "っ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 181,
+                              "y": 622
+                            },
+                            {
+                              "x": 210,
+                              "y": 622
+                            },
+                            {
+                              "x": 210,
+                              "y": 641
+                            },
+                            {
+                              "x": 181,
+                              "y": 641
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "て"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 150,
+                          "y": 446
+                        },
+                        {
+                          "x": 172,
+                          "y": 446
+                        },
+                        {
+                          "x": 172,
+                          "y": 619
+                        },
+                        {
+                          "x": 150,
+                          "y": 619
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 446
+                            },
+                            {
+                              "x": 172,
+                              "y": 446
+                            },
+                            {
+                              "x": 172,
+                              "y": 462
+                            },
+                            {
+                              "x": 150,
+                              "y": 462
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "言"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 467
+                            },
+                            {
+                              "x": 172,
+                              "y": 467
+                            },
+                            {
+                              "x": 172,
+                              "y": 484
+                            },
+                            {
+                              "x": 150,
+                              "y": 484
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "っ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 489
+                            },
+                            {
+                              "x": 172,
+                              "y": 489
+                            },
+                            {
+                              "x": 172,
+                              "y": 507
+                            },
+                            {
+                              "x": 150,
+                              "y": 507
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "た"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 512
+                            },
+                            {
+                              "x": 172,
+                              "y": 512
+                            },
+                            {
+                              "x": 172,
+                              "y": 531
+                            },
+                            {
+                              "x": 150,
+                              "y": 531
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "か"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 538
+                            },
+                            {
+                              "x": 172,
+                              "y": 538
+                            },
+                            {
+                              "x": 172,
+                              "y": 555
+                            },
+                            {
+                              "x": 150,
+                              "y": 555
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "ら"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 556
+                            },
+                            {
+                              "x": 172,
+                              "y": 556
+                            },
+                            {
+                              "x": 172,
+                              "y": 572
+                            },
+                            {
+                              "x": 150,
+                              "y": 572
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "だ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 578
+                            },
+                            {
+                              "x": 172,
+                              "y": 578
+                            },
+                            {
+                              "x": 172,
+                              "y": 596
+                            },
+                            {
+                              "x": 150,
+                              "y": 596
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "っ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 150,
+                              "y": 601
+                            },
+                            {
+                              "x": 172,
+                              "y": 601
+                            },
+                            {
+                              "x": 172,
+                              "y": 619
+                            },
+                            {
+                              "x": 150,
+                              "y": 619
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "た"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "blockType": "TEXT",
+            "boundingBox": {
+              "vertices": [
+                {
+                  "x": 120,
+                  "y": 1234
+                },
+                {
+                  "x": 215,
+                  "y": 1230
+                },
+                {
+                  "x": 222,
+                  "y": 1384
+                },
+                {
+                  "x": 127,
+                  "y": 1388
+                }
+              ]
+            },
+            "confidence": 0.93,
+            "paragraphs": [
+              {
+                "boundingBox": {
+                  "vertices": [
+                    {
+                      "x": 120,
+                      "y": 1234
+                    },
+                    {
+                      "x": 215,
+                      "y": 1230
+                    },
+                    {
+                      "x": 222,
+                      "y": 1384
+                    },
+                    {
+                      "x": 127,
+                      "y": 1388
+                    }
+                  ]
+                },
+                "confidence": 0.93,
+                "words": [
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 194,
+                          "y": 1234
+                        },
+                        {
+                          "x": 215,
+                          "y": 1233
+                        },
+                        {
+                          "x": 217,
+                          "y": 1272
+                        },
+                        {
+                          "x": 196,
+                          "y": 1273
+                        }
+                      ]
+                    },
+                    "confidence": 0.97,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 194,
+                              "y": 1234
+                            },
+                            {
+                              "x": 215,
+                              "y": 1233
+                            },
+                            {
+                              "x": 216,
+                              "y": 1250
+                            },
+                            {
+                              "x": 195,
+                              "y": 1251
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "text": "も"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 195,
+                              "y": 1256
+                            },
+                            {
+                              "x": 216,
+                              "y": 1255
+                            },
+                            {
+                              "x": 217,
+                              "y": 1272
+                            },
+                            {
+                              "x": 196,
+                              "y": 1273
+                            }
+                          ]
+                        },
+                        "confidence": 0.96,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          }
+                        },
+                        "text": "う"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 157,
+                          "y": 1233
+                        },
+                        {
+                          "x": 186,
+                          "y": 1233
+                        },
+                        {
+                          "x": 186,
+                          "y": 1385
+                        },
+                        {
+                          "x": 157,
+                          "y": 1385
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "property": {
+                      "detectedLanguages": [
+                        {
+                          "languageCode": "ja"
+                        }
+                      ]
+                    },
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 157,
+                              "y": 1233
+                            },
+                            {
+                              "x": 186,
+                              "y": 1233
+                            },
+                            {
+                              "x": 186,
+                              "y": 1249
+                            },
+                            {
+                              "x": 157,
+                              "y": 1249
+                            }
+                          ]
+                        },
+                        "confidence": 0.97,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "怖"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 157,
+                              "y": 1252
+                            },
+                            {
+                              "x": 186,
+                              "y": 1252
+                            },
+                            {
+                              "x": 186,
+                              "y": 1271
+                            },
+                            {
+                              "x": 157,
+                              "y": 1271
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "が"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 157,
+                              "y": 1280
+                            },
+                            {
+                              "x": 186,
+                              "y": 1280
+                            },
+                            {
+                              "x": 186,
+                              "y": 1298
+                            },
+                            {
+                              "x": 157,
+                              "y": 1298
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "ら"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 157,
+                              "y": 1299
+                            },
+                            {
+                              "x": 186,
+                              "y": 1299
+                            },
+                            {
+                              "x": 186,
+                              "y": 1315
+                            },
+                            {
+                              "x": 157,
+                              "y": 1315
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "な"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 157,
+                              "y": 1322
+                            },
+                            {
+                              "x": 186,
+                              "y": 1322
+                            },
+                            {
+                              "x": 186,
+                              "y": 1340
+                            },
+                            {
+                              "x": 157,
+                              "y": 1340
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "い"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 157,
+                              "y": 1343
+                            },
+                            {
+                              "x": 186,
+                              "y": 1343
+                            },
+                            {
+                              "x": 186,
+                              "y": 1361
+                            },
+                            {
+                              "x": 157,
+                              "y": 1361
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "っ"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 157,
+                              "y": 1366
+                            },
+                            {
+                              "x": 186,
+                              "y": 1366
+                            },
+                            {
+                              "x": 186,
+                              "y": 1385
+                            },
+                            {
+                              "x": 157,
+                              "y": 1385
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "EOL_SURE_SPACE"
+                          },
+                          "detectedLanguages": [
+                            {
+                              "languageCode": "ja"
+                            }
+                          ]
+                        },
+                        "text": "て"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 123,
+                          "y": 1238
+                        },
+                        {
+                          "x": 152,
+                          "y": 1238
+                        },
+                        {
+                          "x": 152,
+                          "y": 1296
+                        },
+                        {
+                          "x": 123,
+                          "y": 1296
+                        }
+                      ]
+                    },
+                    "confidence": 0.98,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 123,
+                              "y": 1238
+                            },
+                            {
+                              "x": 152,
+                              "y": 1238
+                            },
+                            {
+                              "x": 152,
+                              "y": 1252
+                            },
+                            {
+                              "x": 123,
+                              "y": 1252
+                            }
+                          ]
+                        },
+                        "confidence": 0.98,
+                        "text": "決"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 123,
+                              "y": 1255
+                            },
+                            {
+                              "x": 152,
+                              "y": 1255
+                            },
+                            {
+                              "x": 152,
+                              "y": 1271
+                            },
+                            {
+                              "x": 123,
+                              "y": 1271
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "text": "め"
+                      },
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 123,
+                              "y": 1277
+                            },
+                            {
+                              "x": 152,
+                              "y": 1277
+                            },
+                            {
+                              "x": 152,
+                              "y": 1296
+                            },
+                            {
+                              "x": 123,
+                              "y": 1296
+                            }
+                          ]
+                        },
+                        "confidence": 0.99,
+                        "text": "た"
+                      }
+                    ]
+                  },
+                  {
+                    "boundingBox": {
+                      "vertices": [
+                        {
+                          "x": 123,
+                          "y": 1300
+                        },
+                        {
+                          "x": 152,
+                          "y": 1300
+                        },
+                        {
+                          "x": 152,
+                          "y": 1308
+                        },
+                        {
+                          "x": 123,
+                          "y": 1308
+                        }
+                      ]
+                    },
+                    "confidence": 0.35,
+                    "symbols": [
+                      {
+                        "boundingBox": {
+                          "vertices": [
+                            {
+                              "x": 123,
+                              "y": 1300
+                            },
+                            {
+                              "x": 152,
+                              "y": 1300
+                            },
+                            {
+                              "x": 152,
+                              "y": 1308
+                            },
+                            {
+                              "x": 123,
+                              "y": 1308
+                            }
+                          ]
+                        },
+                        "confidence": 0.35,
+                        "property": {
+                          "detectedBreak": {
+                            "type": "LINE_BREAK"
+                          }
+                        },
+                        "text": "。"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "height": 1540,
+        "property": {
+          "detectedLanguages": [
+            {
+              "confidence": 0.84,
+              "languageCode": "ja"
+            }
+          ]
+        },
+        "width": 1080
+      }
+    ],
+    "text": "あのとき……\nわたし\n春にここで\n備のことを好きに\nなりはじめたのは\nたしかに\n私はずっと一\n｢好き」って言葉が\n怖かったから\nさわ\nが誰のことも。\n好きにならないって\n言ったからだった\nもう\n怖がらないって\n決めた。\n"
+  },
+  "imagePropertiesAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 1079
+            },
+            {
+              "x": 1079,
+              "y": 1354
+            },
+            {
+              "y": 1354
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.9
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {},
+            {
+              "x": 1079
+            },
+            {
+              "x": 1079,
+              "y": 1077
+            },
+            {
+              "y": 1077
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.78
+      },
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "y": 291
+            },
+            {
+              "x": 1079,
+              "y": 291
+            },
+            {
+              "x": 1079,
+              "y": 1200
+            },
+            {
+              "y": 1200
+            }
+          ]
+        },
+        "confidence": 0.79999995,
+        "importanceFraction": 0.7
+      }
+    ],
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "blue": 244,
+            "green": 244,
+            "red": 244
+          },
+          "hex": "F4F4F4",
+          "percent": 85.40753810395265,
+          "percentRounded": 85,
+          "pixelFraction": 0.6405714,
+          "rgb": "244, 244,\n 244",
+          "score": 0.8540754
+        },
+        {
+          "color": {
+            "blue": 11,
+            "green": 11,
+            "red": 11
+          },
+          "hex": "0B0B0B",
+          "percent": 3.2380114281161463,
+          "percentRounded": 3,
+          "pixelFraction": 0.023619048,
+          "rgb": "11, 11,\n 11",
+          "score": 0.032380115
+        },
+        {
+          "color": {
+            "blue": 199,
+            "green": 199,
+            "red": 199
+          },
+          "hex": "C7C7C7",
+          "percent": 6.591953853658623,
+          "percentRounded": 7,
+          "pixelFraction": 0.1775238,
+          "rgb": "199, 199,\n 199",
+          "score": 0.06591954
+        },
+        {
+          "color": {
+            "blue": 158,
+            "green": 158,
+            "red": 158
+          },
+          "hex": "9E9E9E",
+          "percent": 2.8752218361700748,
+          "percentRounded": 3,
+          "pixelFraction": 0.10596825,
+          "rgb": "158, 158,\n 158",
+          "score": 0.028752219
+        },
+        {
+          "color": {
+            "blue": 124,
+            "green": 124,
+            "red": 124
+          },
+          "hex": "7C7C7C",
+          "percent": 1.0286890771631023,
+          "percentRounded": 1,
+          "pixelFraction": 0.034857143,
+          "rgb": "124, 124,\n 124",
+          "score": 0.010286891
+        },
+        {
+          "color": {
+            "blue": 84,
+            "green": 84,
+            "red": 84
+          },
+          "hex": "545454",
+          "percent": 0.509155948696738,
+          "percentRounded": 1,
+          "pixelFraction": 0.012253968,
+          "rgb": "84, 84,\n 84",
+          "score": 0.0050915596
+        },
+        {
+          "color": {
+            "blue": 52,
+            "green": 52,
+            "red": 52
+          },
+          "hex": "343434",
+          "percent": 0.3494297522426595,
+          "percentRounded": 0,
+          "pixelFraction": 0.0052063493,
+          "rgb": "52, 52,\n 52",
+          "score": 0.0034942976
+        }
+      ]
+    }
+  },
+  "labelAnnotations": [
+    {
+      "description": "Cartoon",
+      "mid": "/m/0215n",
+      "score": 0.9787344,
+      "topicality": 0.9787344
+    },
+    {
+      "description": "Line art",
+      "mid": "/m/0919rx",
+      "score": 0.72477853,
+      "topicality": 0.72477853
+    },
+    {
+      "description": "Monochrome",
+      "mid": "/m/01mwkf",
+      "score": 0.70229715,
+      "topicality": 0.70229715
+    },
+    {
+      "description": "Black-and-white",
+      "mid": "/m/01g6gs",
+      "score": 0.564079,
+      "topicality": 0.564079
+    },
+    {
+      "description": "Fictional character",
+      "mid": "/m/02h7lkt",
+      "score": 0.52791756,
+      "topicality": 0.52791756
+    },
+    {
+      "description": "Parallel",
+      "mid": "/m/030zfn",
+      "score": 0.52366954,
+      "topicality": 0.52366954
+    }
+  ],
+  "localizedObjectAnnotations": [
+    {
+      "boundingPoly": {
+        "normalizedVertices": [
+          {
+            "x": 0.2681693,
+            "y": 0.065867946
+          },
+          {
+            "x": 0.46430135,
+            "y": 0.065867946
+          },
+          {
+            "x": 0.46430135,
+            "y": 0.48824966
+          },
+          {
+            "x": 0.2681693,
+            "y": 0.48824966
+          }
+        ]
+      },
+      "mid": "/m/03bt1vf",
+      "name": "Woman",
+      "score": 0.8199839
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "POSSIBLE",
+    "medical": "VERY_UNLIKELY",
+    "racy": "VERY_LIKELY",
+    "spoof": "VERY_UNLIKELY",
+    "violence": "VERY_UNLIKELY"
+  },
+  "textAnnotations": [
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 123,
+            "y": 99
+          },
+          {
+            "x": 921,
+            "y": 99
+          },
+          {
+            "x": 921,
+            "y": 1385
+          },
+          {
+            "x": 123,
+            "y": 1385
+          }
+        ]
+      },
+      "description": "あのとき……\nわたし\n春にここで\n備のことを好きに\nなりはじめたのは\nたしかに\n私はずっと一\n｢好き」って言葉が\n怖かったから\nさわ\nが誰のことも。\n好きにならないって\n言ったからだった\nもう\n怖がらないって\n決めた。\n",
+      "locale": "ja"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 898,
+            "y": 99
+          },
+          {
+            "x": 921,
+            "y": 99
+          },
+          {
+            "x": 921,
+            "y": 184
+          },
+          {
+            "x": 898,
+            "y": 184
+          }
+        ]
+      },
+      "description": "あのとき"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 898,
+            "y": 200
+          },
+          {
+            "x": 921,
+            "y": 200
+          },
+          {
+            "x": 921,
+            "y": 206
+          },
+          {
+            "x": 898,
+            "y": 206
+          }
+        ]
+      },
+      "description": "…"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 898,
+            "y": 220
+          },
+          {
+            "x": 921,
+            "y": 220
+          },
+          {
+            "x": 921,
+            "y": 226
+          },
+          {
+            "x": 898,
+            "y": 226
+          }
+        ]
+      },
+      "description": "…"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 846,
+            "y": 832
+          },
+          {
+            "x": 856,
+            "y": 832
+          },
+          {
+            "x": 856,
+            "y": 854
+          },
+          {
+            "x": 846,
+            "y": 854
+          }
+        ]
+      },
+      "description": "わたし"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 836,
+            "y": 231
+          },
+          {
+            "x": 866,
+            "y": 232
+          },
+          {
+            "x": 862,
+            "y": 335
+          },
+          {
+            "x": 833,
+            "y": 334
+          }
+        ]
+      },
+      "description": "春にここで"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 796,
+            "y": 234
+          },
+          {
+            "x": 832,
+            "y": 234
+          },
+          {
+            "x": 832,
+            "y": 405
+          },
+          {
+            "x": 796,
+            "y": 405
+          }
+        ]
+      },
+      "description": "備のことを好きに"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 772,
+            "y": 231
+          },
+          {
+            "x": 799,
+            "y": 231
+          },
+          {
+            "x": 799,
+            "y": 406
+          },
+          {
+            "x": 772,
+            "y": 406
+          }
+        ]
+      },
+      "description": "なりはじめたのは"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 745,
+            "y": 231
+          },
+          {
+            "x": 772,
+            "y": 231
+          },
+          {
+            "x": 772,
+            "y": 320
+          },
+          {
+            "x": 745,
+            "y": 320
+          }
+        ]
+      },
+      "description": "たしかに"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 821,
+            "y": 831
+          },
+          {
+            "x": 844,
+            "y": 831
+          },
+          {
+            "x": 844,
+            "y": 956
+          },
+          {
+            "x": 821,
+            "y": 956
+          }
+        ]
+      },
+      "description": "私はずっと一"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 785,
+            "y": 829
+          },
+          {
+            "x": 816,
+            "y": 829
+          },
+          {
+            "x": 816,
+            "y": 837
+          },
+          {
+            "x": 785,
+            "y": 837
+          }
+        ]
+      },
+      "description": "｢"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 785,
+            "y": 848
+          },
+          {
+            "x": 816,
+            "y": 848
+          },
+          {
+            "x": 816,
+            "y": 882
+          },
+          {
+            "x": 785,
+            "y": 882
+          }
+        ]
+      },
+      "description": "好き"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 785,
+            "y": 887
+          },
+          {
+            "x": 816,
+            "y": 887
+          },
+          {
+            "x": 816,
+            "y": 895
+          },
+          {
+            "x": 785,
+            "y": 895
+          }
+        ]
+      },
+      "description": "」"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 785,
+            "y": 898
+          },
+          {
+            "x": 816,
+            "y": 898
+          },
+          {
+            "x": 816,
+            "y": 1007
+          },
+          {
+            "x": 785,
+            "y": 1007
+          }
+        ]
+      },
+      "description": "って言葉が"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 751,
+            "y": 829
+          },
+          {
+            "x": 780,
+            "y": 829
+          },
+          {
+            "x": 780,
+            "y": 965
+          },
+          {
+            "x": 751,
+            "y": 965
+          }
+        ]
+      },
+      "description": "怖かったから"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 775,
+            "y": 836
+          },
+          {
+            "x": 784,
+            "y": 834
+          },
+          {
+            "x": 787,
+            "y": 851
+          },
+          {
+            "x": 778,
+            "y": 853
+          }
+        ]
+      },
+      "description": "さわ"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 217,
+            "y": 465
+          },
+          {
+            "x": 241,
+            "y": 465
+          },
+          {
+            "x": 241,
+            "y": 602
+          },
+          {
+            "x": 217,
+            "y": 602
+          }
+        ]
+      },
+      "description": "が誰のことも"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 217,
+            "y": 603
+          },
+          {
+            "x": 241,
+            "y": 603
+          },
+          {
+            "x": 241,
+            "y": 609
+          },
+          {
+            "x": 217,
+            "y": 609
+          }
+        ]
+      },
+      "description": "。"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 181,
+            "y": 447
+          },
+          {
+            "x": 210,
+            "y": 447
+          },
+          {
+            "x": 210,
+            "y": 641
+          },
+          {
+            "x": 181,
+            "y": 641
+          }
+        ]
+      },
+      "description": "好きにならないって"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 150,
+            "y": 446
+          },
+          {
+            "x": 172,
+            "y": 446
+          },
+          {
+            "x": 172,
+            "y": 619
+          },
+          {
+            "x": 150,
+            "y": 619
+          }
+        ]
+      },
+      "description": "言ったからだった"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 194,
+            "y": 1234
+          },
+          {
+            "x": 215,
+            "y": 1233
+          },
+          {
+            "x": 217,
+            "y": 1272
+          },
+          {
+            "x": 196,
+            "y": 1273
+          }
+        ]
+      },
+      "description": "もう"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 157,
+            "y": 1233
+          },
+          {
+            "x": 186,
+            "y": 1233
+          },
+          {
+            "x": 186,
+            "y": 1385
+          },
+          {
+            "x": 157,
+            "y": 1385
+          }
+        ]
+      },
+      "description": "怖がらないって"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 123,
+            "y": 1238
+          },
+          {
+            "x": 152,
+            "y": 1238
+          },
+          {
+            "x": 152,
+            "y": 1296
+          },
+          {
+            "x": 123,
+            "y": 1296
+          }
+        ]
+      },
+      "description": "決めた"
+    },
+    {
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 123,
+            "y": 1300
+          },
+          {
+            "x": 152,
+            "y": 1300
+          },
+          {
+            "x": 152,
+            "y": 1308
+          },
+          {
+            "x": 123,
+            "y": 1308
+          }
+        ]
+      },
+      "description": "。"
+    }
+  ],
+  "webDetection": {
+    "bestGuessLabels": [
+      {
+        "label": "cartoon"
+      }
+    ],
+    "fullMatchingImages": [
+      {
+        "url": "https://dynasty-scans.com/system/releases/000/023/782/0016.jpg"
+      },
+      {
+        "url": "https://2.bp.blogspot.com/LQFunr89xj-azdSmYYjg8XmpwbI5YVfVKbifyW5yeSevWk6oyF3GFqb7TWkgsxu8uyXUo6CRooF7kTRoENAebFIIEmtuB_spL3C1PwE9cU5oynZA3YJUOD5BAQ7Sx33SO3FiZyKszww=s0?title=013___1557336661.png"
+      },
+      {
+        "url": "https://cdn.mangahub.io/file/imghub/yagate-kimi-ni-naru/40/14.jpg"
+      },
+      {
+        "url": "https://s8.mkklcdnv8.com/mangakakalot/y1/yagate_kimi_ni_naru/chapter_40_the_one_i_love/14.jpg"
+      },
+      {
+        "url": "http://unionmangas.com/leitor/mangas/Yagate%20Kimi%20ni%20Naru/40/15.jpg"
+      },
+      {
+        "url": "https://wx3.sinaimg.cn/large/82bd2e98ly1g2gg84gg81j20u016s12y.jpg"
+      },
+      {
+        "url": "https://i.imgur.com/9mTQRRm.jpg"
+      },
+      {
+        "url": "https://img.itw01.com/images/2019/04/27/14/4919_mAK8Lj_U8KOXE5.jpg!r800x0.jpg"
+      }
+    ],
+    "pagesWithMatchingImages": [
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://cdn.mangahub.io/file/imghub/yagate-kimi-ni-naru/40/14.jpg"
+          }
+        ],
+        "pageTitle": "Yagate Kimi ni Naru 40 - MangaHub.io",
+        "url": "https://mangahub.io/chapter/yagate-kimi-ni-naru_102/chapter-40"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://mangasoul.com/img/manga/547/chapter-40/14.jpg"
+          }
+        ],
+        "pageTitle": "Yagate Kimi ni Naru Chapter 40 - Manga Soul",
+        "url": "https://mangasoul.com/reader/547/50"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://2.bp.blogspot.com/LQFunr89xj-azdSmYYjg8XmpwbI5YVfVKbifyW5yeSevWk6oyF3GFqb7TWkgsxu8uyXUo6CRooF7kTRoENAebFIIEmtuB_spL3C1PwE9cU5oynZA3YJUOD5BAQ7Sx33SO3FiZyKszww=s0?title=013___1557336661.png"
+          }
+        ],
+        "pageTitle": "Yagate Kimi ni Naru Chap 40 English - Read Manga Online at ...",
+        "url": "http://holymanga.net/yagate-kimi-ni-naru-chap-40"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://2.bp.blogspot.com/LQFunr89xj-azdSmYYjg8XmpwbI5YVfVKbifyW5yeSevWk6oyF3GFqb7TWkgsxu8uyXUo6CRooF7kTRoENAebFIIEmtuB_spL3C1PwE9cU5oynZA3YJUOD5BAQ7Sx33SO3FiZyKszww=s0?title=013___1557336661.png"
+          }
+        ],
+        "pageTitle": "Yagate Kimi ni Naru Chap 40 English - Read Manga Online at ...",
+        "url": "http://heavenmanga.vip/yagate-kimi-ni-naru-chap-40/"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://s8.mkklcdnv8.com/mangakakalot/y1/yagate_kimi_ni_naru/chapter_40_the_one_i_love/14.jpg"
+          }
+        ],
+        "pageTitle": "Yagate Kimi ni Naru Chapter 40 - MangaWeek",
+        "url": "https://mangaweek.com/read-yagate-kimi-ni-naru-chapter-40.html"
+      },
+      {
+        "pageTitle": "#koitoyuu - Instagram media feed - Bigsta",
+        "partialMatchingImages": [
+          {
+            "url": "https://scontent-sjc3-1.cdninstagram.com/vp/b11e52322a9955b585382d10906854b2/5D56E6AF/t51.2885-15/e35/57557025_2371419716471088_7294153418791106151_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&ig_cache_key=MjAzMTY1ODYwODk3ODE0NTEyNw%3D%3D.2"
+          }
+        ],
+        "url": "http://bigsta.net/tag/koitoyuu"
+      },
+      {
+        "pageTitle": "#toukonanami - Instagram photos and videos",
+        "partialMatchingImages": [
+          {
+            "url": "https://scontent-lht6-1.cdninstagram.com/vp/49e2fa0b53549cc469ab704213bd3c1c/5D56E6AF/t51.2885-15/e35/57557025_2371419716471088_7294153418791106151_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com&ig_cache_key=MjAzMTY1ODYwODk3ODE0NTEyNw%3D%3D.2"
+          }
+        ],
+        "url": "http://hotsta.net/tag/toukonanami"
+      },
+      {
+        "pageTitle": "Images and Videos tagged with #animedrama on Instagram ...",
+        "partialMatchingImages": [
+          {
+            "url": "https://scontent-vie1-1.cdninstagram.com/vp/1e4e3916e8705baa1a06e1dc62ed1d09/5D56E6AF/t51.2885-15/e35/57557025_2371419716471088_7294153418791106151_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&ig_cache_key=MjAzMTY1ODYwODk3ODE0NTEyNw%3D%3D.2"
+          }
+        ],
+        "url": "https://kmgram.com/tag/animedrama"
+      },
+      {
+        "pageTitle": "fate的微博_微博 - weibo",
+        "partialMatchingImages": [
+          {
+            "url": "https://wx4.sinaimg.cn/thumb150/61e6542dgy1g2ggzymn6tj216o1kwu0x.jpg"
+          }
+        ],
+        "url": "https://www.weibo.com/207171154"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://i.imgur.com/9mTQRRm.jpg"
+          }
+        ],
+        "pageTitle": "#終將成為妳40話 已上翻- Dcard 百合板",
+        "url": "https://www.dcard.cc/f/girlslove/p/231170996"
+      },
+      {
+        "pageTitle": "丿Enoch的微博_微博",
+        "partialMatchingImages": [
+          {
+            "url": "https://wx4.sinaimg.cn/thumb150/61e6542dgy1g2ggzymn6tj216o1kwu0x.jpg"
+          }
+        ],
+        "url": "https://www.weibo.com/u/5577631366?refer_flag=1005050010_"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://wx3.sinaimg.cn/large/82bd2e98ly1g2gg84gg81j20u016s12y.jpg"
+          }
+        ],
+        "pageTitle": "终将成为你第40话「わたしの好きな人」 - 微博",
+        "url": "https://www.weibo.com/ttarticle/p/show?id=2309404365468424081588"
+      },
+      {
+        "pageTitle": "追叹归梨的微博_微博",
+        "partialMatchingImages": [
+          {
+            "url": "https://wx4.sinaimg.cn/thumb150/61e6542dgy1g2ggzymn6tj216o1kwu0x.jpg"
+          }
+        ],
+        "url": "https://www.weibo.com/u/5947483558"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://i.imgur.com/9mTQRRm.jpg"
+          }
+        ],
+        "pageTitle": "#終將成為妳40話 已上翻- Dcard 百合板",
+        "url": "https://www.dcard.tw/f/girlslove/p/231170996"
+      },
+      {
+        "pageTitle": "赞 - 百世快递- bwin网站_bwin官网授权_bwin亚洲娱乐",
+        "partialMatchingImages": [
+          {
+            "url": "http://wx4.sinaimg.cn/thumb150/61e6542dgy1g2ggzymn6tj216o1kwu0x.jpg"
+          }
+        ],
+        "url": "http://dzjingshui.com/weibo_/p/1005051642484781/home?from=page_100505&mod=TAB"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "http://unionmangas.com/leitor/mangas/Yagate%20Kimi%20ni%20Naru/40/15.jpg"
+          }
+        ],
+        "pageTitle": "Ler mangá Yagate Kimi ni Naru - Capítulo 40 online - Elite Mangás",
+        "url": "http://elitemangas.com/leitor/yagate-kimi-ni-naru/40"
+      },
+      {
+        "pageTitle": "yagakimi - Bigsta",
+        "partialMatchingImages": [
+          {
+            "url": "https://scontent-sjc3-1.cdninstagram.com/vp/3c3d00b2a3bf911e40e54415b39e4242/5D7E73AF/t51.2885-15/e35/57557025_2371419716471088_7294153418791106151_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&ig_cache_key=MjAzMTY1ODYwODk3ODE0NTEyNw%3D%3D.2"
+          }
+        ],
+        "url": "http://bigsta.net/tag/yagakimi"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://img.itw01.com/images/2019/04/27/14/4919_mAK8Lj_U8KOXE5.jpg!r800x0.jpg"
+          }
+        ],
+        "pageTitle": "終將成為你第40話「わたしの好きな人」 - ITW01",
+        "url": "https://itw01.com/U8KOXE5.html"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://dynasty-scans.com/system/releases/000/023/782/0016.jpg"
+          }
+        ],
+        "pageTitle": "Dynasty Reader » Bloom Into You ch40",
+        "url": "https://dynasty-scans.com/chapters/bloom_into_you_ch40"
+      }
+    ],
+    "partialMatchingImages": [
+      {
+        "url": "https://scontent-sjc3-1.cdninstagram.com/vp/3c3d00b2a3bf911e40e54415b39e4242/5D7E73AF/t51.2885-15/e35/57557025_2371419716471088_7294153418791106151_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&ig_cache_key=MjAzMTY1ODYwODk3ODE0NTEyNw%3D%3D.2"
+      },
+      {
+        "url": "https://wx4.sinaimg.cn/thumb150/61e6542dgy1g2ggzymn6tj216o1kwu0x.jpg"
+      }
+    ],
+    "visuallySimilarImages": [
+      {
+        "url": "https://d2lzb5v10mb0lj.cloudfront.net/common/salestools/previews/3003254/3003254p2.jpg"
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/738761/Previews/a99dc8f9e6c27967b1ea9511702bbe25._SX1280_QL80_TTD_.jpg"
+      },
+      {
+        "url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1529407790i/25819325._SY540_.png"
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/665791/Previews/ae77be8613094df9353597887ac33338._SX1280_QL80_TTD_.jpg"
+      },
+      {
+        "url": "x-raw-image:///33caf7414c4e8f527bcf01cabab3d4550ed98c122dff6c3168eb0916e2c74883"
+      },
+      {
+        "url": "https://cadencecomicart.com/artwork/31761.jpg"
+      },
+      {
+        "url": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/740276/Previews/c8422cf3782d6a89f7b5bce72c3b3c30._SX1280_QL80_TTD_.jpg"
+      },
+      {
+        "url": "https://em.wattpad.com/2b3b798c15ed278b8e08ae9cd8458429af1098e2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f74685a7846486a43754f444c6c773d3d2d3631343333363536382e3135343831653066323234333339316335333331303230303932392e6a7067?s=fit&w=720&h=720"
+      },
+      {
+        "url": "https://atoe.a-collect.co.jp/img/item/fd6ce84dec7556aad62e209e463d2777c05351ed/fd6ce84dec7556aad62e209e463d2777c05351ed-03.jpg"
+      },
+      {
+        "url": "https://cgtranslations321782266.files.wordpress.com/2018/03/193.png?w=20000"
+      },
+      {
+        "url": "https://i0.wp.com/www.animefeminist.com/wp-content/uploads/2018/08/DiuDAGxVQAAetPS.jpg?resize=479%2C750&ssl=1"
+      },
+      {
+        "url": "https://i.stack.imgur.com/A3WIs.jpg"
+      },
+      {
+        "url": "https://image.myanimelist.net/ui/y4egPeOO7fF_l38_rNVjolaWiW6pPCLtnduTYXgzK3sWVBt6aL08ZcHYv-7Xsnceh47k_rBMVrI3EhLzKX4S_5AYReKr9MoBwOcGklTW7NlUzMeY2F9Rp8cnOf8xGcBeYqkgCtzRkNTZE7bmmD9nVQ"
+      },
+      {
+        "url": "https://cgtranslations321782266.files.wordpress.com/2018/03/173.png?w=20000"
+      },
+      {
+        "url": "https://sotaku.com/wp-content/uploads/2018/06/read-the-one-punch-man-and-dragon-ball-manga-%E2%80%93-martial-arts-tournament.jpg"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/D6pfN_kU0AITpi0.jpg"
+      }
+    ],
+    "webEntities": [
+      {
+        "description": "Bloom Into You",
+        "entityId": "/g/11c3xc9kc_",
+        "score": 0.8076
+      },
+      {
+        "description": "Manga",
+        "entityId": "/m/04spm",
+        "score": 0.5894
+      },
+      {
+        "description": "Sina Weibo",
+        "entityId": "/m/0drz3w9",
+        "score": 0.4834
+      },
+      {
+        "description": "Comics",
+        "entityId": "/m/012h24",
+        "score": 0.42743665
+      },
+      {
+        "description": "Yuri",
+        "entityId": "/m/0jb0t",
+        "score": 0.3337
+      },
+      {
+        "entityId": "/m/0rzp4kh",
+        "score": 0.2989
+      },
+      {
+        "description": "Manga scan",
+        "entityId": "/m/01w7j6",
+        "score": 0.2952
+      },
+      {
+        "description": "Mangaka",
+        "entityId": "/m/01nxfc",
+        "score": 0.26483434
+      },
+      {
+        "description": "Tagged",
+        "entityId": "/m/03c51f4",
+        "score": 0.2368
+      },
+      {
+        "description": "Snow White with the Red Hair",
+        "entityId": "/m/010ls_6t",
+        "score": 0.2329
+      },
+      {
+        "description": "Cartoon",
+        "entityId": "/m/0215n",
+        "score": 0.22335428
+      },
+      {
+        "description": "Shōjo manga",
+        "entityId": "/m/0751y",
+        "score": 0.2021
+      },
+      {
+        "description": "Drama",
+        "entityId": "/m/02822",
+        "score": 0.2012
+      },
+      {
+        "description": "Microblogging",
+        "entityId": "/m/02rf5_g",
+        "score": 0.1988
+      },
+      {
+        "description": "Nio Nakatani",
+        "entityId": "/g/11h2mjq1bt",
+        "score": 0.032595
+      }
+    ]
+  }
+}
