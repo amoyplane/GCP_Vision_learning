@@ -30,6 +30,7 @@ from google.cloud.vision import types
 
 import translate as trans
 import drawline as draw
+import infostruct as ifs
 
 
 def sizefilter(vertices, v):
@@ -66,7 +67,29 @@ def expand(vertices, v):
     return t_vertices
 
 
+def gettingdir(vertices):
+    minx = 999999999
+    miny = 999999999
+    maxx = -1
+    maxy = -1
+    for vertex in vertices:
+        if vertex.x < minx:
+            minx = vertex.x
+        if vertex.x > maxx:
+            maxx = vertex.x
+        if vertex.y < miny:
+            miny = vertex.y
+        if vertex.y > maxy:
+            maxy = vertex.y
+    dx = maxx - minx
+    dy = maxy - miny
+    if (dx <= dy):
+        return 1
+    return 0
+
+
 def run_quickstart(file_name):
+    ret = []
 
     # Instantiates a client
     # [START vision_python_migration_client]
