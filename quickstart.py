@@ -32,7 +32,7 @@ import translate as trans
 import drawline as draw
 
 
-def sizefilter(vertices):
+def sizefilter(vertices, v):
     minx = 999999999
     miny = 999999999
     maxx = -1
@@ -46,22 +46,22 @@ def sizefilter(vertices):
             miny = vertex.y
         if vertex.y > maxy:
             maxy = vertex.y
-    if ((maxx - minx < 20) or (maxy - miny < 20)):
+    if ((maxx - minx < v) or (maxy - miny < v)):
         return True
     return False
 
 
-def expand(vertices):
+def expand(vertices, v):
     t_vertices = copy.deepcopy(vertices)
-    t_vertices[0].x = t_vertices[0].x - 10
-    t_vertices[1].x = t_vertices[1].x + 10
-    t_vertices[2].x = t_vertices[2].x + 10
-    t_vertices[3].x = t_vertices[3].x - 10
+    t_vertices[0].x = t_vertices[0].x - v
+    t_vertices[1].x = t_vertices[1].x + v
+    t_vertices[2].x = t_vertices[2].x + v
+    t_vertices[3].x = t_vertices[3].x - v
 
-    t_vertices[0].y = t_vertices[0].y - 10
-    t_vertices[1].y = t_vertices[1].y - 10
-    t_vertices[2].y = t_vertices[2].y + 10
-    t_vertices[3].y = t_vertices[3].y + 10
+    t_vertices[0].y = t_vertices[0].y - v
+    t_vertices[1].y = t_vertices[1].y - v
+    t_vertices[2].y = t_vertices[2].y + v
+    t_vertices[3].y = t_vertices[3].y + v
 
     return t_vertices
 
@@ -91,7 +91,7 @@ def run_quickstart(file_name):
         for block in page.blocks:
             if (block.block_type != 1):
                 continue
-            if sizefilter(block.bounding_box.vertices):
+            if sizefilter(block.bounding_box.vertices, 20):
                 continue
             # print('{}\n'.format(block.confidence))
             # print('{}\n'.format(block.block_type))
@@ -112,7 +112,7 @@ def run_quickstart(file_name):
             draw.drawline((block.bounding_box.vertices[3].x, block.bounding_box.vertices[3].y), (block.bounding_box.vertices[0].x, block.bounding_box.vertices[0].y), (0, 255, 0))
             '''
 
-            tbound = expand(block.bounding_box.vertices)
+            tbound = expand(block.bounding_box.vertices, 10)
             draw.drawline((tbound[0].x, tbound[0].y), (tbound[1].x, tbound[1].y), (0, 255, 0))
             draw.drawline((tbound[1].x, tbound[1].y), (tbound[2].x, tbound[2].y), (0, 255, 0))
             draw.drawline((tbound[2].x, tbound[2].y), (tbound[3].x, tbound[3].y), (0, 255, 0))
@@ -125,7 +125,7 @@ def run_quickstart(file_name):
                 centence = ''
 
                 for word in paragraph.words:
-                    if sizefilter(word.bounding_box.vertices):
+                    if sizefilter(word.bounding_box.vertices, 20):
                         continue
 
                     vertices = (['({},{})'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
