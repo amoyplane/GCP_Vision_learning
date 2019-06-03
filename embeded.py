@@ -1,4 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
+import infostruct as ifs
 
 rotateWords = '`·~!@#$%^…&*()（）-=[]【】\\;\'‘’「」\"“”『』.,/_—+{}|:”<>《》?0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ '
 
@@ -109,13 +110,31 @@ def Embeded(file, outname, infos):
     image = Image.open(file)
     fontName = 'simhei.ttf'
     for item in infos:
-        bound = []
-        for point in points:
-            bound.append((point.x, point.y))
-        DrawPoly(image=image, text=item.text, points=bound, direction=item.direction, fontName=fontName)
+        DrawPoly(image=image, text=item.text, points=item.vertexs, direction=item.direct, fontName=fontName)
     image.save(outname)
 
 
+if __name__ == '__main__':
+    infos = []
+
+    bound = [(405, 103), (405, 278), (285, 278), (285, 103)]
+    text = '暑假已经快要结束了……'
+    info = ifs.Info(bound, 1, text, text)
+    infos.append(info)
+
+    bound = [(1010, 575), (1010, 732), (1091, 732), (1091, 575)]
+    text = '脚本似乎还能做得完？'
+    info = ifs.Info(bound, 1, text, text)
+    infos.append(info)
+
+    bound = [(1254, 1352), (1254, 1487), (1180, 1487), (1180, 1352)]
+    text = '要做些什么……'
+    info = ifs.Info(bound, 1, text, text)
+    infos.append(info)
+
+    Embeded('t.png', 't_out.png', infos)
+
+'''
 fontName = 'simhei.ttf'
 
 image = Image.open("t.png")
@@ -148,3 +167,4 @@ DrawPoly(image=image, text='OOKS', points=[(333, 372), (615, 372), (615, 436), (
 DrawPoly(image=image, text='危险', points=[(351, 1255), (382, 1255), (382, 1344), (351, 1344)], direction=1, fontName=fontName)
 DrawPoly(image=image, text='因为老师在陪审团里，我把我的小说放在新人奖中', points=[(172, 1587), (327, 1587), (327, 1824), (172, 1824)], direction=1, fontName=fontName)
 image.save('2_translated.png')
+'''
