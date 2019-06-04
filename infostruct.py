@@ -17,6 +17,7 @@ class Info:
         print(self.id)
         for vet in self.vertexs:
             print('(' + str(vet[0]) + ',' + str(vet[1]) + ')', end=' ')
+        print()
         print('Direction = ', end=' ')
         print(self.direct)
         print(self.text)
