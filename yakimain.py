@@ -4,14 +4,14 @@ import sys
 
 
 def doall(infile, outfile):
-    f = open('ans.txt', 'w')
+    # f = open('ans.txt', 'w')
     # file_name='/root/pic/t3.jpg'
     file_name = infile
     draw.openpic(file_name)
     # os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     rst = qs.run_quickstart(file_name)
     draw.writepic(outfile)
-    f.close()
+    # f.close()
 
     return rst
 

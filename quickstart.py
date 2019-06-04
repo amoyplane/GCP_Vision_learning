@@ -123,10 +123,10 @@ def run_quickstart(file_name):
             # f.write('\nBlock confidence: {}\n'.format(block.confidence))
 
             blocki = blocki + 1
-            f.write('Block # {} :\n'.format(blocki))
+            # f.write('Block # {} :\n'.format(blocki))
             vertices = (['({},{})'.format(vertex.x, vertex.y) for vertex in block.bounding_box.vertices])
 
-            f.write('bounds: {} \n'.format(','.join(vertices)))
+            # f.write('bounds: {} \n'.format(','.join(vertices)))
 
             # block.bounding_box.vertices[1].x
             '''
@@ -154,8 +154,8 @@ def run_quickstart(file_name):
 
                     vertices = (['({},{})'.format(vertex.x, vertex.y) for vertex in word.bounding_box.vertices])
                     word_text = ''.join([symbol.text for symbol in word.symbols])
-                    f.write('Word text: {} '.format(word_text))
-                    f.write('bounds: {} \n'.format(','.join(vertices)))
+                    # f.write('Word text: {} '.format(word_text))
+                    # f.write('bounds: {} \n'.format(','.join(vertices)))
                     centence = centence + word_text
 
                 ifb = ifs.Info()
@@ -166,11 +166,11 @@ def run_quickstart(file_name):
                     vet.append((vertex.x, vertex.y))
                 ifb.vertexs = vet
                 ifb.direct = gettingdir(paragraph.bounding_box.vertices)
-                f.write('centence : {}\n'.format(centence))
+                # f.write('centence : {}\n'.format(centence))
                 ifb.text = centence
                 transans = trans.ask_translation('ja', centence)
                 ifb.trans = transans
-                f.write('translation : {}\n'.format(transans))
+                # f.write('translation : {}\n'.format(transans))
 
                 ifb.showInfo()
                 ret.append(ifb)
