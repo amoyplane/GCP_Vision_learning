@@ -157,9 +157,19 @@ def run_quickstart(file_name):
                     f.write('bounds: {} \n'.format(','.join(vertices)))
                     centence = centence + word_text
 
+                ifb = ifs.Info
+                vet = (['({},{})'.format(vertex.x, vertex.y) for vertex in paragraph.bounding_box.vertices])
+                ifb.vertexs = vet
+                ifb.direct = gettingdir(paragraph.bounding_box.vertices)
                 f.write('centence : {}\n'.format(centence))
+                ifb.text = centence
                 transans = trans.ask_translation('ja', centence)
+                ifb.trans = transans
                 f.write('translation : {}\n'.format(transans))
+
+                ifb.showInfo()
+                ret.append(ifb)
+    return ret
 
 
 if __name__ == '__main__':
@@ -172,7 +182,7 @@ if __name__ == '__main__':
     draw.openpic(file_name)
 
     os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
-    run_quickstart(file_name)
+    rst = run_quickstart(file_name)
 
     draw.writepic('pro_' + sys.argv[1])
 

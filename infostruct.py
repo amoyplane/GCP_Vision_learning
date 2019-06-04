@@ -10,3 +10,9 @@ class Info:
         self.direct = direction
         self.text = text
         self.trans = trans
+
+    def showInfo(self):
+        print(self.vertexs + '\n')
+        print(self.direct + '\n')
+        print(self.text + '\n')
+        print(self.trans + '\n')
