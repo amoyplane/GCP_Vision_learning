@@ -60,6 +60,15 @@ class Info:
         self.vertexs[1][1] = self.vertexs[1][1] + num
         self.vertexs[2][1] = self.vertexs[2][1] + num
 
+    def changeDir(self, gdir):
+        self.direct = gdir
+
+    def changeTrans(self, trans):
+        self.trans = trans
+
+    def changeStatus(self, sta):
+        self.enable = sta
+
 
 if __name__ == '__main__':
     a = Info([[11, 222], [33, 455], [15, 326], [237, 1348]], 1, 'abc', 'def', 2)

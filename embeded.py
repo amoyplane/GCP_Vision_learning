@@ -110,6 +110,8 @@ def Embeded(file, outname, infos):
     image = Image.open(file)
     fontName = 'simhei.ttf'
     for item in infos:
+        if (item.enable != 1):
+            continue
         points = []
         for po in item.vertexs:
             points.append((po[0], po[1]))

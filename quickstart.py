@@ -182,6 +182,8 @@ def run_quickstart(file_name):
 def drawShow(infile, outfile, infos):
     draw.openpic(infile)
     for item in infos:
+        if (item.enable != 1):
+            continue
         b = item.vertexs
         draw.drawline((b[0][0], b[0][1]), (b[1][0], b[1][1]), (0, 255, 0))
         draw.drawline((b[1][0], b[1][1]), (b[2][0], b[2][1]), (0, 255, 0))
