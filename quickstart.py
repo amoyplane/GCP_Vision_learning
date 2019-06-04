@@ -157,7 +157,7 @@ def run_quickstart(file_name):
                     f.write('bounds: {} \n'.format(','.join(vertices)))
                     centence = centence + word_text
 
-                ifb = ifs.Info
+                ifb = ifs.Info()
                 vet = (['({},{})'.format(vertex.x, vertex.y) for vertex in paragraph.bounding_box.vertices])
                 ifb.vertexs = vet
                 ifb.direct = gettingdir(paragraph.bounding_box.vertices)

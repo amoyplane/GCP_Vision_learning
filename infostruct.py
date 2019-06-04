@@ -12,7 +12,8 @@ class Info:
         self.trans = trans
 
     def showInfo(self):
-        print(self.vertexs + '\n')
-        print(self.direct + '\n')
-        print(self.text + '\n')
-        print(self.trans + '\n')
+        for vet in self.vertexs:
+            print('(' + str(vet[0]) + ',' + str(vet[1]) + ')')
+        print(self.direct)
+        print(self.text)
+        print(self.trans)
