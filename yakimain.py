@@ -21,7 +21,7 @@ def doall(infile, showfile, outfile):
 
 
 def renew(infos, infile, showfile, outfile):
-	qs.drawShow(infile, showfile, infos)
+    qs.drawShow(infile, showfile, infos)
     emb.Embeded(infile, outfile, infos)
 
 
