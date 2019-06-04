@@ -137,10 +137,12 @@ def run_quickstart(file_name):
             '''
 
             tbound = expand(block.bounding_box.vertices, 20)
+            '''
             draw.drawline((tbound[0].x, tbound[0].y), (tbound[1].x, tbound[1].y), (0, 255, 0))
             draw.drawline((tbound[1].x, tbound[1].y), (tbound[2].x, tbound[2].y), (0, 255, 0))
             draw.drawline((tbound[2].x, tbound[2].y), (tbound[3].x, tbound[3].y), (0, 255, 0))
             draw.drawline((tbound[3].x, tbound[3].y), (tbound[0].x, tbound[0].y), (0, 255, 0))
+            '''
 
             for paragraph in block.paragraphs:
                 # f.write('Paragraph confidence: {}'.format(
@@ -175,6 +177,17 @@ def run_quickstart(file_name):
                 ifb.showInfo()
                 ret.append(ifb)
     return ret
+
+
+def drawShow(infile, outfile, infos):
+    draw.openpic(infile)
+    for item in infos:
+        b = infos.vertexs
+        draw.drawline((b[0][0], b[0][1]), (b[1][0], b[1][1]), (0, 255, 0))
+        draw.drawline((b[1][0], b[1][1]), (b[2][0], b[2][1]), (0, 255, 0))
+        draw.drawline((b[2][0], b[2][1]), (b[3][0], b[3][1]), (0, 255, 0))
+        draw.drawline((b[3][0], b[3][1]), (b[0][0], b[0][1]), (0, 255, 0))
+    draw.writepic(outfile)
 
 
 if __name__ == '__main__':

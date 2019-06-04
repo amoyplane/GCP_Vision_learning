@@ -8,15 +8,21 @@ def doall(infile, showfile, outfile):
     # f = open('ans.txt', 'w')
     # file_name='/root/pic/t3.jpg'
     file_name = infile
-    draw.openpic(file_name)
     # os.system("export GOOGLE_APPLICATION_CREDENTIALS=\"/root/mykey.json\"")
     rst = qs.run_quickstart(file_name)
-    draw.writepic(showfile)
+    qs.drawShow(file_name, showfile, rst)
+    # draw.openpic(file_name)
+    # draw.writepic(showfile)
     # f.close()
 
     emb.Embeded(infile, outfile, rst)
 
     return rst
+
+
+def renew(infos, infile, showfile, outfile):
+	qs.drawShow(infile, showfile, infos)
+    emb.Embeded(infile, outfile, infos)
 
 
 if __name__ == '__main__':

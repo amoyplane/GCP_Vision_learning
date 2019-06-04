@@ -11,6 +11,7 @@ class Info:
         self.text = text
         self.trans = trans
         self.id = id
+        self.enable = 1
 
     def showInfo(self):
         print('Info id = ', end=' ')
@@ -42,6 +43,22 @@ class Info:
         self.vertexs[2][1] = self.vertexs[2][1] - num
         self.vertexs[3][0] = self.vertexs[3][0] + num
         self.vertexs[3][1] = self.vertexs[3][1] - num
+
+    def changeL(self, num):
+        self.vertexs[0][0] = self.vertexs[0][0] + num
+        self.vertexs[3][0] = self.vertexs[3][0] + num
+
+    def changeR(self, num):
+        self.vertexs[1][0] = self.vertexs[1][0] + num
+        self.vertexs[2][0] = self.vertexs[2][0] + num
+
+    def changeU(self, num):
+        self.vertexs[0][1] = self.vertexs[0][1] + num
+        self.vertexs[1][1] = self.vertexs[1][1] + num
+
+    def changeD(self, num):
+        self.vertexs[1][1] = self.vertexs[1][1] + num
+        self.vertexs[2][1] = self.vertexs[2][1] + num
 
 
 if __name__ == '__main__':
