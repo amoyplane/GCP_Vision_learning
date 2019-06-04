@@ -5,11 +5,12 @@ class Point:
 
 
 class Info:
-    def __init__(self, points=[], direction=1, text='', trans=''):
+    def __init__(self, points=[], direction=1, text='', trans='', id=0):
         self.vertexs = points
         self.direct = direction
         self.text = text
         self.trans = trans
+        self.id = id
 
     def showInfo(self):
         for vet in self.vertexs:
@@ -17,3 +18,9 @@ class Info:
         print(self.direct)
         print(self.text)
         print(self.trans)
+        print(self.id)
+
+
+if __name__ == '__main__':
+    a = Info([(11, 222), (33, 455), (15, 326), (237, 1348)], 1, 'abc', 'def', 2)
+    a.showInfo()

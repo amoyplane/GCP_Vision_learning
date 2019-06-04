@@ -110,6 +110,7 @@ def run_quickstart(file_name):
     response = client.document_text_detection(image=image)
 
     blocki = 0
+    infoc = 1
     for page in response.full_text_annotation.pages:
         for block in page.blocks:
             if (block.block_type != 1):
@@ -158,7 +159,11 @@ def run_quickstart(file_name):
                     centence = centence + word_text
 
                 ifb = ifs.Info()
-                vet = (['({},{})'.format(vertex.x, vertex.y) for vertex in paragraph.bounding_box.vertices])
+                ifb.id = infoc
+                infoc = infoc + 1
+                vet = []
+                for vertex in paragraph.bounding_box.vertices:
+                    vet.append((vertex.x, vertex.y))
                 ifb.vertexs = vet
                 ifb.direct = gettingdir(paragraph.bounding_box.vertices)
                 f.write('centence : {}\n'.format(centence))
