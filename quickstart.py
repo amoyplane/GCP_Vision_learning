@@ -136,7 +136,7 @@ def run_quickstart(file_name):
             draw.drawline((block.bounding_box.vertices[3].x, block.bounding_box.vertices[3].y), (block.bounding_box.vertices[0].x, block.bounding_box.vertices[0].y), (0, 255, 0))
             '''
 
-            tbound = expand(block.bounding_box.vertices, 10)
+            tbound = expand(block.bounding_box.vertices, 20)
             draw.drawline((tbound[0].x, tbound[0].y), (tbound[1].x, tbound[1].y), (0, 255, 0))
             draw.drawline((tbound[1].x, tbound[1].y), (tbound[2].x, tbound[2].y), (0, 255, 0))
             draw.drawline((tbound[2].x, tbound[2].y), (tbound[3].x, tbound[3].y), (0, 255, 0))
