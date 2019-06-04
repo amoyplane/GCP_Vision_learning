@@ -1,5 +1,6 @@
 import quickstart as qs
 import drawline as draw
+import sys
 
 
 def doall(infile, outfile):
