@@ -3,7 +3,7 @@ import drawline as draw
 
 
 def doall(infile, outfile):
-	f = open('ans.txt', 'w')
+    f = open('ans.txt', 'w')
     # file_name='/root/pic/t3.jpg'
     file_name = infile
     draw.openpic(file_name)
@@ -15,6 +15,5 @@ def doall(infile, outfile):
     return rst
 
 
-
 if __name__ == '__main__':
-	ret = doall('/root/pic/' + sys.argv[1], 'pro_' + sys.argv[1])
+    ret = doall('/root/pic/' + sys.argv[1], 'pro_' + sys.argv[1])
