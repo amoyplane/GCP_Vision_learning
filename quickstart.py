@@ -163,7 +163,7 @@ def run_quickstart(file_name):
                 infoc = infoc + 1
                 vet = []
                 for vertex in paragraph.bounding_box.vertices:
-                    vet.append((vertex.x, vertex.y))
+                    vet.append([vertex.x, vertex.y])
                 ifb.vertexs = vet
                 ifb.direct = gettingdir(paragraph.bounding_box.vertices)
                 # f.write('centence : {}\n'.format(centence))

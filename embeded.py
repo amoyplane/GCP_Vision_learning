@@ -14,7 +14,7 @@ def DrawWord(image, word, position, direction, fontName, fontSize, fontColor='#0
         image.paste(w.rotate(270), position)
     else:
         width = font.getsize(word)[0]
-        #print(word + str(width))
+        # print(word + str(width))
         position = (position[0] + (fontSize - width) // 2, position[1]) if direction == 1 else position
         ImageDraw.Draw(image).text(position, word, font=font, fill=fontColor)
         if bold:
@@ -110,24 +110,27 @@ def Embeded(file, outname, infos):
     image = Image.open(file)
     fontName = 'simhei.ttf'
     for item in infos:
-        DrawPoly(image=image, text=item.text, points=item.vertexs, direction=item.direct, fontName=fontName)
+        points = []
+        for po in item.vertexs:
+            points.append((po[0], po[1]))
+        DrawPoly(image=image, text=item.text, points=points, direction=item.direct, fontName=fontName)
     image.save(outname)
 
 
 if __name__ == '__main__':
     infos = []
 
-    bound = [(405, 103), (405, 278), (285, 278), (285, 103)]
+    bound = [[405, 103], [405, 278], [285, 278], [285, 103]]
     text = '暑假已经快要结束了……'
     info = ifs.Info(bound, 1, text, text)
     infos.append(info)
 
-    bound = [(1010, 575), (1010, 732), (1091, 732), (1091, 575)]
+    bound = [[1010, 575], [1010, 732], [1091, 732], [1091, 575]]
     text = '脚本似乎还能做得完？'
     info = ifs.Info(bound, 1, text, text)
     infos.append(info)
 
-    bound = [(1254, 1352), (1254, 1487), (1180, 1487), (1180, 1352)]
+    bound = [[1254, 1352], [1254, 1487], [1180, 1487], [1180, 1352]]
     text = '要做些什么……'
     info = ifs.Info(bound, 1, text, text)
     infos.append(info)

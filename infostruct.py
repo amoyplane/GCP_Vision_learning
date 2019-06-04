@@ -16,14 +16,38 @@ class Info:
         print('Info id = ', end=' ')
         print(self.id)
         for vet in self.vertexs:
-            print('(' + str(vet[0]) + ',' + str(vet[1]) + ')', end=' ')
+            print('[' + str(vet[0]) + ',' + str(vet[1]) + ']', end=' ')
         print()
         print('Direction = ', end=' ')
         print(self.direct)
         print(self.text)
         print(self.trans)
 
+    def expand(self, num):
+        self.vertexs[0][0] = self.vertexs[0][0] - num
+        self.vertexs[0][1] = self.vertexs[0][1] - num
+        self.vertexs[1][0] = self.vertexs[1][0] + num
+        self.vertexs[1][1] = self.vertexs[1][1] - num
+        self.vertexs[2][0] = self.vertexs[2][0] + num
+        self.vertexs[2][1] = self.vertexs[2][1] + num
+        self.vertexs[3][0] = self.vertexs[3][0] - num
+        self.vertexs[3][1] = self.vertexs[3][1] + num
+
+    def shrink(self, num):
+        self.vertexs[0][0] = self.vertexs[0][0] + num
+        self.vertexs[0][1] = self.vertexs[0][1] + num
+        self.vertexs[1][0] = self.vertexs[1][0] - num
+        self.vertexs[1][1] = self.vertexs[1][1] + num
+        self.vertexs[2][0] = self.vertexs[2][0] - num
+        self.vertexs[2][1] = self.vertexs[2][1] - num
+        self.vertexs[3][0] = self.vertexs[3][0] + num
+        self.vertexs[3][1] = self.vertexs[3][1] - num
+
 
 if __name__ == '__main__':
-    a = Info([(11, 222), (33, 455), (15, 326), (237, 1348)], 1, 'abc', 'def', 2)
+    a = Info([[11, 222], [33, 455], [15, 326], [237, 1348]], 1, 'abc', 'def', 2)
+    a.showInfo()
+    a.expand(5)
+    a.showInfo()
+    a.shrink(3)
     a.showInfo()
